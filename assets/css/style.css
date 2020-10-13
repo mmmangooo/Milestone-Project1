@@ -1,0 +1,42 @@
+body {
+    font-family:;
+    margin: 0;
+}
+
+
+/*------------------ Header section */
+
+.header-container {
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    position: relative;
+    
+    
+}
+
+.header-container h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:50px;
+    left: 20px;
+    color: #fff;
+}
+
+.carousel-container {
+    height: 900px;
+    z-index: -1;
+}
+
+
+
+/* -------------- Navigation bar */
+
+.nav-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+}
