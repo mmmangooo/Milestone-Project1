@@ -68,7 +68,7 @@ The client goals of this website is to:
 
 Every page contains a shortcut link to the contact page, in form of an icon in the down right corner. The purpose og this is to make it easy for the user to find and quickly get to the contact page regardless of where the user is on the page.
 Each page also features a navigation bar on the top right, which is fixed in its position so it remains the same while the user scrolls down the page. The purppse of this is to make it easy no navigate the page no matter where on te page the user currently is. 
-Each page contains a footer with copyright information and links to the photographer in social media.
+The navigation bar is collapsed to a "hamburger menu" on mobile and tablet. Each page contains a footer with copyright information and links to the photographer in social media.
 
 ### Home
 The home page features a large hero image displayed in a carousel containing three photos. This carousel takes up the height of almost the entire screen on all devices and the purpose of this is to immediately catch the viewers attention and create a wow-feeling on watching the photos. 
@@ -101,3 +101,41 @@ A pricing page will be implemented when the photographer have started up her bus
 ## Technologies used
 * This project uses HTML and CSS programming languages
 * [GitPod](https://www.gitpod.io/) - The developer used GitPod for their IDE while building the website
+* [GitHub](http://github.com) - This project uses GitHub to store the projects code after being pushed from Git.
+* [Git](https://git-scm.com/) - The project uses Git for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [BootstrapCDN](https://getbootstrap.com/) - The project uses Bootstrap for simplified process of structuring the website, facilitate in making it responsive and for adding certain elements. It also uses Bootstrap to provide javascript needed for the carousel and the nav bar.
+* [Google Fonts](https://fonts.google.com/) - The project uses Google Fonts for styling fonts.
+* [Font Awesome](https://fontawesome.com/) - The project uses Font Awesome for icons.
+* [Balsamiq](https://balsamiq.com/) - This project uses Balsamiq for creating the wireframes during the design process.
+
+## Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+* First time visitor
+* Potential client
+* Interested client
+* Returning visitor
+
+### Further Testing
+
+### Known bugs
+
+## Deployment
+
+### GitHub Pages
+
+### Forking the GitHub Repository
+
+### Making a Local Clone
+
+## Credits
+
+### Content
+
+### Media
+
+### Code
+
+### Acknowledgements
+
