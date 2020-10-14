@@ -56,65 +56,67 @@ body {
     
 
 .about-col {
-    margin-left: 50px;
-    margin-top: 250px;
+    
+    margin-top: 100px;
     margin-bottom: 100px;
-    text-align: left;
-    width: 50%;
-    height: 600px;
-   
-}
+    padding-left: 40px;
+    }
+ 
+    
 
  .about-img {
-    height: 35%;
-    width: 35%;
+    height: 40%;
+    width: 40%;
     float:left;
     margin-bottom: 30px;
     margin-right: 30px;
-    border-radius: 100%;
-    }
-
-.about-img-col {
-        width: 50%;
-        margin-right: 50px;
-        margin-top: 250px;
-    margin-bottom: 100px;
+    border-radius: 50%;
     }
 
 .about-img-col img {
         width: 20%;
         border-radius: 50%;
-        padding: 0;
+        margin-left: 40px;
+        
     }
+
 
 #windmill-img {
 position: relative;
-top: 0;
+top: 60px;
 left: 100px;
 width: 25%;
+height: 25%;
 }
 
 #bread-img {
 position: relative;
-top: 100px;
-left: 120px;
-width: 30%;
-
+bottom: 80px;
+right: 40px;
+width: 35%;
+height: 35%;
 }
 
 #flower-img {
 position: relative;
-top: 250px;
-right: 120px;
+top: 40px;
+right: 60px;
 width: 20%;
+height: 20%;
 }
 
 /*---------------Gallery*/
+
+#gallery {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
 .gallery-container {
     line-height: 0;
     column-count: 4;
     column-gap: 2px;
+    
 }
 
 .gallery-container img {
@@ -129,11 +131,11 @@ width: 20%;
     padding: 20px;
     position: fixed;
     bottom: 0;
-    background-color: #b5a37c;
+    background-color: transparent;
     
 }
 
-.footer>p {
+.footer p {
     font-size: 1rem;
     margin: 0;
     color: rgba(248, 247, 247, 0.8);
@@ -142,24 +144,25 @@ width: 20%;
 .social-icon {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: rgba(248, 247, 247, 0.8);
+    margin-right: 20px;
+    color: #fc6336;
 }
 
 .cta-btn {
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 40px;
-    border: 2px solid;
-    border-color: rgba(248, 247, 247, 0.8);
     border-radius: 50%;
-   
+    background-color: #fff;
+    padding: 20px;
+
 }
 
 .cta-btn i {
     text-decoration: none;
-    font-size: 2rem;
-    color: rgba(248, 247, 247, 0.8);
-    padding: 6px;
+    font-size: 4rem;
+    color: #fc6336;
+    
 }
 
 @
