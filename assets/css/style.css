@@ -109,6 +109,18 @@ right: 120px;
 width: 20%;
 }
 
+/*---------------Gallery*/
+
+.gallery-container {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+.gallery-container img {
+    width: 100%;
+}
+
 /*---------------Footer */
 
 .footer {
@@ -121,8 +133,8 @@ width: 20%;
     
 }
 
-.footer p {
-    font-size: 0.5rem;
+.footer>p {
+    font-size: 1rem;
     margin: 0;
     color: rgba(248, 247, 247, 0.8);
 }
@@ -131,6 +143,7 @@ width: 20%;
     font-size: 2rem;
     margin-bottom: 15px;
     color: rgba(248, 247, 247, 0.8);
+}
 
 .cta-btn {
     position: fixed;
@@ -148,3 +161,5 @@ width: 20%;
     color: rgba(248, 247, 247, 0.8);
     padding: 6px;
 }
+
+@
