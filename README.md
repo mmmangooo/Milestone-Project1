@@ -137,5 +137,9 @@ A pricing page will be implemented when the photographer have started up her bus
 
 ### Code
 
+Wrapping text shaped around circular image:
+
+https://css-tricks.com/almanac/properties/s/shape-outside/
+
 ### Acknowledgements
 
