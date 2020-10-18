@@ -128,7 +128,7 @@ height: 100%;
     background-color: #e7dfc2;
     padding-top: 80px;
     padding-bottom: 20px;
-    margin-bottom: 80px;
+
   
 }
 
@@ -139,6 +139,7 @@ height: 100%;
     margin-top: 100px;
     margin-bottom: 200px;
     width: 100%;
+   
   
     
 }
@@ -150,16 +151,27 @@ height: 100%;
 /*----------------------------Contact section */
 
 
-#contact {
-    background: url("assets/images/_DSC0018 (2).jpg") no-repeat; 
-    
-  
-
+.background-container {
+ background: url("/assets/images/_DSC0016.jpg") no-repeat;
+ background-size: cover;   
+ padding-top: 400px;
+ padding-bottom: 400px;
+ opacity: 0.5;
+ 
+ 
+ 
 }
+
+.contact-container {
+    position: relative;
+    margin-top: -700px;
+}
+
 
 .contact-form {
 display: inline-block;
 width: 100%;
+
 }
 
 .contact-img {
@@ -168,6 +180,7 @@ width: 100%;
     margin-bottom: 30px;
     margin-right: 30px;
     border-radius: 50%;
+    
 }
 
 /*-----------------------------Footer */

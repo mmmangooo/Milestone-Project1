@@ -182,15 +182,37 @@
 	<!----------------------------------------Contact section--------------------->
 	<section id="contact">
 		
-		<div class="content-container">
-        <h3>Kontakta mig</h3>
+		<div class="background-container">
+      
+            </div>
+
+            <div class="content-container contact-container">
+              <h3>Kontakta mig</h3>
         <div class="row align-items-center">
 			<div class="col-md-6">
-				<form class="contact-form">
+            <form>
+             <div class="col-sm-3 my-1">
+      <label class="sr-only" for="inlineFormInputName">Name</label>
+      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+    </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+
+ 
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+            
+
+				<!-----<form class="contact-form">
 					<input type="text" name="name" placeholder="Namn">
 					<input type="email" name="email" placeholder="Mailadress">
 					<textarea name="message" placeholder="Meddelande" rows="10" cols="30"></textarea>
-				</form>
+				</form>!--->
 			</div>
 			<div class="contact-img-col d-none d-sm-block col-md-6">
 				<img src="assets/images/Elenor.jpg" class="contact-img"  alt=""></div>
@@ -206,6 +228,18 @@
 			<p>© Copyright 2020 Elenore Henriksson</p>
 			<div class="cta-btn">
 				<a href="#contact"><i class="fas fa-camera"></i></a>
+			</div>
+              <h3>Kontakta mig</h3>
+        <div class="row align-items-center">
+			<div class="col-md-6">
+				<form class="contact-form">
+					<input type="text" name="name" placeholder="Namn">
+					<input type="email" name="email" placeholder="Mailadress">
+					<textarea name="message" placeholder="Meddelande" rows="10" cols="30"></textarea>
+				</form>
+			</div>
+			<div class="contact-img-col d-none d-sm-block col-md-6">
+				<img src="assets/images/Elenor.jpg" class="contact-img"  alt=""></div>
 			</div>
 		</div>
 	</footer>
