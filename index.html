@@ -22,12 +22,10 @@
     <section id="header">
       <header>
         <div class="header-container container-fluid">
-          <a href="#header"><h1>Elenores foton</h1></a>
-
           <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
           <div
-            id="carouselExampleSlidesOnly"
-            class="carousel-container carousel slide carousel-fade"
+            id="carouselLandscape"
+            class="carousel slide carousel-fade d-none d-md-block "
             data-ride="carousel"
           >
             <div class="carousel-inner">
@@ -55,8 +53,39 @@
             </div>
           </div>
 
+           <div
+            id="carouselMobile"
+            class="carousel slide carousel-fade  d-block d-md-none "
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/sinar.JPG"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/_DSC0080 (2).jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/_DSC0024 (4).jpg"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
           <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
           <div class="nav-container">
+            <a href="#header"><h1>Elenores foton</h1></a>
             <nav class="navbar navbar-expand-lg navbar-dark bg-none">
               <button
                 class="navbar-toggler"
@@ -98,38 +127,52 @@
 
     <section id="about">
       <div class="content-container">
-        <h3>Om mig</h3>
         <div class="row align-items-center">
           <div class="about-col col-md-6">
+          <h4>Om mig</h4>
             <img
-              class="about-img"
-              src="assets/images/Elenor.jpg"
-              alt="The photographer, a dark-blonde woman, looking in to her camera"
+              class="about-self-img"
+              src="assets/images/IMG_4272 (2).jpg"
+              alt="The photographer, a dark-blonde woman, looking into the camera, holding her camera"
             />
-
+            
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Välkommen till min sida för personligt familjefoto! För mig är det
+              viktigt att du får ut mer av fotostunden än bara bilder, jag
+              tycker att en fotografering ska vara en rolig upplevelse med
+              känslor och äkthet som syns i bilderna. Det här med att
+              fotografera uppställt och poserat är inte min grej utan jag tar
+              till mina knep för att ni ska fokusera på varandra eller er själva
+              istället för mig. Fotostunden är till för er och mitt mål är att
+              ni ska kunna slappna av och lita på att jag som fotograf förevigar
+              era finaste ögonblick just precis som de är. Så strunta i vinden
+              som tar tag i håret eller regnet som ligger i luften, bortse från
+              fläcken på klänningen och bara längta ihjäl dig efter ditt ofödda
+              barn som vilar tryggt i magen eller se din kärlek djupt i ögonen,
+              medan jag tar hand om att föreviga ögonblicket som är livet.
             </p>
           </div>
           <div class="about-img-col d-none d-sm-block col-lg-6">
-            <div class="circular-responsive-img">
-              <img id="windmill-img" src="assets/images/_DSC0118 (3).JPG" alt="" />
-            </div>
-
-            <div class="circular-responsive-img">
-              <img id="bread-img" src="assets/images/_DSC0116 (2).jpg" alt="" />
-            </div>
-
-            <div class="circular-responsive-img flower-img">
+            <div class="circular-responsive-img first-img-container">
               <img
-                id="flower-img"
+                id="first-about-img"
+                src="assets/images/_DSC0115.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="circular-responsive-img second-img-container">
+              <img
+                id="second-about-img"
                 src="assets/images/DSC_0151.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="circular-responsive-img third-img-container">
+              <img
+                id="third-about-img"
+                src="assets/images/DSC_0071.jpg"
                 alt=""
               />
             </div>
@@ -142,7 +185,6 @@
 
     <section id="gallery">
       <div class="content-container">
-        <h3>Galleri</h3>
         <div class="gallery-container container-fluid">
           <img
             src="assets/images/_DSC0095 (2).jpg"
@@ -153,41 +195,30 @@
             alt="Man standing behind woman, embracing her and looking down, woman looking into camera"
           />
           <img
-            src="assets/images/DSC_0072.jpg"
-            alt=""
+            src="assets/images/_DSC0080 (2).jpg"
+            alt="Pregnant woman dressed in black looking down on her belly, with orange leaves in the foregrund"
           />
+
+          <img src="assets/images/DSC_0018.jpg" alt="..." />
           <img
             src="assets/images/_DSC0028 (2).JPG"
             alt="Happy couple looking at each other with big smiles"
           />
-        
-         
-          <img
-            src="assets/images/_DSC0080 (2).jpg"
-            alt="Pregnant woman dressed in black looking down on her belly, with orange leaves in the foregrund"
-          />
-              <img
-            src="assets/images/DSC_0018.jpg"
-            alt="..."
-          />
-        
-        
-          <img
-            src="assets/images/_DSC0098 (2).jpg"
-            alt="Pregnant woman in long light blue dress standing on beach, looking down at her belly and holding it"
-          />
+
+          <img src="assets/images/_DSC0118 (3).JPG" alt="" />
+
+          <img src="assets/images/DSC_0113.jpg" alt="" />
           <img
             src="assets/images/DSC_0117.jpg"
             alt="Black and white photo of blonde little boy looking into the camera"
           />
           <img
-            src="assets/images/DSC_0113.jpg"
-            alt=""
+            src="assets/images/_DSC0098 (2).jpg"
+            alt="Pregnant woman in long light blue dress standing on beach, looking down at her belly and holding it"
           />
-          <img
-            src="assets/images/_DSC0292.jpg"
-            alt=""
-          />
+
+          <img src="assets/images/_DSC0292.jpg" alt="" />
+          <img src="assets/images/DSC_0072.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -197,45 +228,40 @@
       <div class="background-container"></div>
 
       <div class="content-container contact-container">
-        
-            <form>
-              <div class="form-group">
-                <label for="inputName">Namn</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputName"
-                  aria-describedby="nameHelp"
-                  placeholder="Ditt namn"
-                />
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">Epost</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  aria-describedby="emailHelp"
-                  placeholder="Din epostadress"
-                />
-              </div>
-              <div class="form-group">
-                <label for="inputText"
-                  >Meddelande</label
-                >
-                <textarea
-                  class="form-control"
-                  id="inputText"
-                  rows="6"
-                ></textarea>
-              </div>
+        <h5>
+          Välkommen att kontakta mig för mer information eller för att boka en
+          fotografering!
+        </h5>
 
-              <button type="submit" class="btn form-send-btn">Submit</button>
-            </form>
+        <form>
+          <div class="form-group">
+            <label for="inputName">Namn</label>
+            <input
+              type="name"
+              class="form-control"
+              id="inputName"
+              aria-describedby="inputName"
+              placeholder="Ditt namn"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputEmail">Epost</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              aria-describedby="inputEmail"
+              placeholder="Din epostadress"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputText">Meddelande</label>
+            <textarea class="form-control" id="inputText" rows="6"></textarea>
           </div>
 
-          
-      
+          <button type="submit" class="btn form-send-btn">Submit</button>
+        </form>
+      </div>
     </section>
 
     <!-----------------------------------------Footer section---------------------->
