@@ -131,6 +131,10 @@ A pricing page will be implemented when the photographer have started up her bus
 
 ## Credits
 
+
+
+
+
 ### Content
 
 ### Media
@@ -138,8 +142,11 @@ A pricing page will be implemented when the photographer have started up her bus
 ### Code
 
 Wrapping text shaped around circular image:
-
 https://css-tricks.com/almanac/properties/s/shape-outside/
+
+Making background-image transparent while elements on top remain non-transparent:
+https://css-tricks.com/non-transparent-elements-inside-transparent-elements/
+
 
 ### Acknowledgements
 

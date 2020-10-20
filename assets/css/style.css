@@ -89,8 +89,8 @@ h3 {
  .circular-responsive-img {
      position: relative;
      border-radius: 50%;
-     width: 30%;
-     height: 30%;
+     width: 20%;
+     height: 20%;
      padding-bottom: 20%;
      overflow: hidden;
      
@@ -125,7 +125,6 @@ height: 100%;
 /*---------------Gallery*/
 
 #gallery {
-    background-color: #e7dfc2;
     padding-top: 80px;
     padding-bottom: 20px;
 
@@ -151,11 +150,13 @@ height: 100%;
 /*----------------------------Contact section */
 
 
+/* Credit for the code below making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
+
 .background-container {
- background: url("/assets/images/_DSC0016.jpg") no-repeat;
+ background: url("/assets/images/DSC_0156_svartvit_2.jpg") no-repeat;
  background-size: cover;   
- padding-top: 400px;
- padding-bottom: 400px;
+ padding-top: 500px;
+ padding-bottom: 500px;
  opacity: 0.5;
  
  
@@ -165,21 +166,42 @@ height: 100%;
 .contact-container {
     position: relative;
     margin-top: -700px;
+    width: 50%;
+    float: left;
 }
 
 
-.contact-form {
-display: inline-block;
-width: 100%;
+.form-group {
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+   
+    
+}
 
+
+
+.form-send-btn {
+    background-color: #fc6336;
+    color: #fff;
+   
+}
+
+.contact-img-col {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.863); 
+    margin: 100px;
+    
+    
 }
 
 .contact-img {
-     height: 40%;
-    width: 40%;
-    margin-bottom: 30px;
-    margin-right: 30px;
-    border-radius: 50%;
+    text-decoration: none;
+    font-size: 5rem;
+    color: #fc6336;
+    
     
 }
 

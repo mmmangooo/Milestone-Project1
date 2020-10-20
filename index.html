@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Elenores foton</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Elenores foton</title>
-</head>
+  <body>
+    <!---------------------------------Header section------------->
+    <section id="header">
+      <header>
+        <div class="header-container container-fluid">
+          <a href="#header"><h1>Elenores foton</h1></a>
 
-<body>
-	<!---------------------------------Header section------------->
-	<section id="header">
-		<header>
-			<div class="header-container container-fluid">
-				<a href="#header"><h1>Elenores foton</h1></a>
- 
-				<!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
-				<div id="carouselExampleSlidesOnly" class="carousel-container carousel slide carousel-fade"
-					data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img
+          <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel-container carousel slide carousel-fade"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
                   src="assets/images/_DSC0045 (2).jpg"
                   class="d-block w-100 carousel-img"
                   alt="..."
                 />
               </div>
-							<div class="carousel-item">
-								<img
+              <div class="carousel-item">
+                <img
                   src="assets/images/_DSC0134 (2).JPG"
                   class="d-block w-100 carousel-img"
                   alt="..."
                 />
               </div>
-								<div class="carousel-item">
-									<img
+              <div class="carousel-item">
+                <img
                   src="assets/images/_DSC0038 (2).jpg"
                   class="d-block w-100 carousel-img"
                   alt="..."
                 />
               </div>
-								</div>
-							</div>
+            </div>
+          </div>
 
-							<!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
-							<div class="nav-container">
-								<nav class="navbar navbar-expand-lg navbar-dark bg-none">
-									<button
+          <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
+          <div class="nav-container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+              <button
                 class="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
@@ -61,198 +70,200 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-									<div class="collapse navbar-collapse" id="navbarSupportedContent">
-										<ul class="navbar-nav mr-auto">
-											<li class="nav-item active">
-												<a class="nav-link" href="#">Home
-													<span class="sr-only">(current)</span></a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="#">About</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="#">Gallery</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="#">Contact</a>
-											</li>
-										</ul>
-									</div>
-								</nav>
-							</div>
-						</div>
-		</header>
-	</section>
-
-	<!-------------------------------------About section----------------->
-
-	<section id="about">
-
-<div class="content-container">
-    <h3>Om mig</h3>
-		<div class="row align-items-center">
-			<div class="about-col col-md-6">
-				<img
-            class="about-img"
-            src="assets/images/Elenor.jpg"
-            alt="The photographer, a dark-blonde woman, looking in to her camera"
-          />
-				
-				<p>
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-					ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum."
-				</p>
-			</div>
-			<div class="about-img-col d-none d-sm-block col-lg-6">
-            
-				<div class="circular-responsive-img">
-                <img id="windmill-img" src="assets/images/_DSC0150.JPG" alt="">
-            </div>
-          
-          
-				<div class="circular-responsive-img">
-                <img id="bread-img" src="assets/images/_DSC0129.jpg" alt="">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-       
-           
-				<div class="circular-responsive-img flower-img">
-                 <img id="flower-img" src="assets/images/_DSC0013 (2).JPG" alt="">
+        </div>
+      </header>
+    </section>
+
+    <!-------------------------------------About section----------------->
+
+    <section id="about">
+      <div class="content-container">
+        <h3>Om mig</h3>
+        <div class="row align-items-center">
+          <div class="about-col col-md-6">
+            <img
+              class="about-img"
+              src="assets/images/Elenor.jpg"
+              alt="The photographer, a dark-blonde woman, looking in to her camera"
+            />
+
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
+          <div class="about-img-col d-none d-sm-block col-lg-6">
+            <div class="circular-responsive-img">
+              <img id="windmill-img" src="assets/images/_DSC0118 (3).JPG" alt="" />
             </div>
-        </div>
-        </div>
-			</div>
-	</section>
 
-	<!----------------------------Gallery section------------------------>
+            <div class="circular-responsive-img">
+              <img id="bread-img" src="assets/images/_DSC0116 (2).jpg" alt="" />
+            </div>
 
-	<section id="gallery">
-    <div class="content-container">
-		<h3>Galleri</h3>
-		<div class=" gallery-container container-fluid">
+            <div class="circular-responsive-img flower-img">
+              <img
+                id="flower-img"
+                src="assets/images/DSC_0151.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------Gallery section------------------------>
+
+    <section id="gallery">
+      <div class="content-container">
+        <h3>Galleri</h3>
+        <div class="gallery-container container-fluid">
+          <img
+            src="assets/images/_DSC0095 (2).jpg"
+            alt="Mother holding baby close, baby looking at his hand"
+          />
+          <img
+            src="assets/images/_DSC0068 (2).jpg"
+            alt="Man standing behind woman, embracing her and looking down, woman looking into camera"
+          />
+          <img
+            src="assets/images/DSC_0072.jpg"
+            alt=""
+          />
+          <img
+            src="assets/images/_DSC0028 (2).JPG"
+            alt="Happy couple looking at each other with big smiles"
+          />
         
-			<img
-          src="assets/images/_DSC0061.jpg"
-          alt="Pregnant woman in romantic yellow dress, standing in forest"
-        />
-			<img
-          src="assets/images/DSC_0156.jpg"
-          alt="Big sister on bike holding little brothers hand, seen from behind on forest path"
-        />
-			<img
-          src="assets/images/_DSC0028 (2).JPG"
-          alt="Happy couple looking at each other with big smiles"
-        />
-			<img
-          src="assets/images/sinar.JPG"
-          alt="Pregnant woman in leopard dress standing in forest, with branches in the foreground, looking down at her belly and stroking it"
-        />
-			<img
-          src="assets/images/_DSC0038.JPG"
-          alt="Close up of glittering frost on some twigs"
-        />
-			<img
-          src="assets/images/_DSC0080 (2).jpg"
-          alt="Pregnant woman dressed in black looking down on her belly, with orange leaves in the foregrund"
-        />
-			<img
-          src="assets/images/_DSC0068 (2).jpg"
-          alt="Man standing behind woman, embracing her and looking down, woman looking into camera"
-        />
-			<img
-          src="assets/images/_DSC0098 (2).jpg"
-          alt="Pregnant woman in long light blue dress standing on beach, looking down at her belly and holding it"
-        />
-			<img
-          src="assets/images/DSC_0117.jpg"
-          alt="Black and white photo of blonde little boy looking into the camera"
-        />
-			<img
-          src="assets/images/_DSC0258 (2).jpg"
-          alt="Father sitting in sofa holding baby in his lap, with baby's head in his hands"
-        />
+         
+          <img
+            src="assets/images/_DSC0080 (2).jpg"
+            alt="Pregnant woman dressed in black looking down on her belly, with orange leaves in the foregrund"
+          />
+              <img
+            src="assets/images/DSC_0018.jpg"
+            alt="..."
+          />
+        
+        
+          <img
+            src="assets/images/_DSC0098 (2).jpg"
+            alt="Pregnant woman in long light blue dress standing on beach, looking down at her belly and holding it"
+          />
+          <img
+            src="assets/images/DSC_0117.jpg"
+            alt="Black and white photo of blonde little boy looking into the camera"
+          />
+          <img
+            src="assets/images/DSC_0113.jpg"
+            alt=""
+          />
+          <img
+            src="assets/images/_DSC0292.jpg"
+            alt=""
+          />
+        </div>
       </div>
-      </div>
-	</section>
+    </section>
 
-	<!----------------------------------------Contact section--------------------->
-	<section id="contact">
-		
-		<div class="background-container">
-      
-            </div>
+    <!----------------------------------------Contact section--------------------->
+    <section id="contact">
+      <div class="background-container"></div>
 
-            <div class="content-container contact-container">
-              <h3>Kontakta mig</h3>
-        <div class="row align-items-center">
-			<div class="col-md-6">
+      <div class="content-container contact-container">
+        
             <form>
-             <div class="col-sm-3 my-1">
-      <label class="sr-only" for="inlineFormInputName">Name</label>
-      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
-    </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
+              <div class="form-group">
+                <label for="inputName">Namn</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputName"
+                  aria-describedby="nameHelp"
+                  placeholder="Ditt namn"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Epost</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-describedby="emailHelp"
+                  placeholder="Din epostadress"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inputText"
+                  >Meddelande</label
+                >
+                <textarea
+                  class="form-control"
+                  id="inputText"
+                  rows="6"
+                ></textarea>
+              </div>
 
- 
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-            
+              <button type="submit" class="btn form-send-btn">Submit</button>
+            </form>
+          </div>
 
-				<!-----<form class="contact-form">
-					<input type="text" name="name" placeholder="Namn">
-					<input type="email" name="email" placeholder="Mailadress">
-					<textarea name="message" placeholder="Meddelande" rows="10" cols="30"></textarea>
-				</form>!--->
-			</div>
-			<div class="contact-img-col d-none d-sm-block col-md-6">
-				<img src="assets/images/Elenor.jpg" class="contact-img"  alt=""></div>
-			</div>
-            </div>
-	</section>
+          
+      
+    </section>
 
-	<!-----------------------------------------Footer section---------------------->
-	<footer>
-		<div class="footer container-fluid">
-			<a href="#"><i class="social-icon fab fa-instagram"></i></a>
-			<a href="#"><i class="social-icon fab fa-pinterest-p"></i></a>
-			<p>© Copyright 2020 Elenore Henriksson</p>
-			<div class="cta-btn">
-				<a href="#contact"><i class="fas fa-camera"></i></a>
-			</div>
-              <h3>Kontakta mig</h3>
-        <div class="row align-items-center">
-			<div class="col-md-6">
-				<form class="contact-form">
-					<input type="text" name="name" placeholder="Namn">
-					<input type="email" name="email" placeholder="Mailadress">
-					<textarea name="message" placeholder="Meddelande" rows="10" cols="30"></textarea>
-				</form>
-			</div>
-			<div class="contact-img-col d-none d-sm-block col-md-6">
-				<img src="assets/images/Elenor.jpg" class="contact-img"  alt=""></div>
-			</div>
-		</div>
-	</footer>
+    <!-----------------------------------------Footer section---------------------->
+    <footer>
+      <div class="footer container-fluid">
+        <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="#"><i class="social-icon fab fa-pinterest-p"></i></a>
+        <p>© Copyright 2020 Elenore Henriksson</p>
+      </div>
+      <div class="cta-btn">
+        <a href="#contact"><i class="fas fa-camera"></i></a>
+      </div>
+    </footer>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
