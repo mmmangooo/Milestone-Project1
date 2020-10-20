@@ -1,9 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
+
 body {
     font-family:;
-    margin: 0;
+  
    
 }
 
@@ -14,8 +15,6 @@ h1, h4, h5 {
 
 .content-container {
     margin-bottom: 200px;
-    padding-left: 80px;
-    padding-right: 80px;
     text-align: center;
 
 }
@@ -179,7 +178,8 @@ object-fit: cover;
     color: #fff;
     padding-left: 80px;
     padding-right: 80px;
-   
+    margin-top: 20px;
+   margin-bottom: 20px;
     
 }
 
@@ -187,6 +187,7 @@ object-fit: cover;
 .form-send-btn {
     background-color: #fc6336;
     color: #fff;
+    margin-top: 20px;
    
 }
 
@@ -234,4 +235,39 @@ object-fit: cover;
     
 }
 
-@
+/* ----------------------------------------Media queries */
+
+@media screen and (max-width: 767px) {
+
+.about-col {
+    
+    margin: 40px;
+}
+
+.gallery-container {
+    column-count: 3;
+}
+
+.contact-container {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 20%;
+   
+}
+    
+}
+
+@media screen and (max-width: 575px) {
+.about-self-image {
+        float: none;
+}
+
+    .gallery-container {
+        column-count: 2; 
+    }
+
+    .contact-container {
+        padding: 10%;
+    }
+}
