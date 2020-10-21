@@ -54,7 +54,7 @@ h1, h4, h5 {
     z-index: 1;
 }
 
-.navbar-toggler {
+.nav-color {
     color: #656d35;
 }
 
@@ -172,7 +172,8 @@ object-fit: cover;
 }
 
 .contact-container h4 {
-    color: #fff;
+    color: #fbfcf2;
+    margin-bottom: 40px;
 }
 
 
@@ -226,7 +227,7 @@ object-fit: cover;
     bottom: 40px;
     right: 40px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #fff;;
     padding: 20px;
     z-index: 1;
 }
@@ -242,16 +243,13 @@ object-fit: cover;
 
 @media screen and (max-width: 767px) {
 
-.header-container {
-    margin: 0;
-}
-
 .header-container h1 {
     font-size: 2.5rem;
     left: 10px;
 }
 .about-col {
-    margin: 40px;
+    margin: 0;
+    padding: 0; 
 }
 
 .gallery-container {
@@ -277,15 +275,15 @@ object-fit: cover;
 }
 
 @media screen and (max-width: 575px) {
-     .about-self-image {
+    /* .about-self-image {
         float: none;
-}
+}*/
 
     .gallery-container {
         column-count: 2; 
     }
 
-    .contact-container {
+   .contact-container {
         padding: 10%;
     }
 }
