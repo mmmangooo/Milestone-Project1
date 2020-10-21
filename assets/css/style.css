@@ -9,7 +9,7 @@ body {
 }
 
 h1, h4, h5 {
-    color: #757c5b;
+    color: #656d35;
 }
 
 
@@ -51,10 +51,16 @@ h1, h4, h5 {
     right: 0;
     top: 40px;
     z-index: 1;
-
 }
 
+.nav-link a {
+    color: #656d35;
+}
+
+
+
 /*---------------About section */
+
 
 .about-col h4 {
     text-align: center;
@@ -132,9 +138,10 @@ object-fit: cover;
 #gallery {
     padding-top: 80px;
     padding-bottom: 20px;
-
-  
+    background-color: #fcfce5
+;
 }
+
 
 .gallery-container {
     line-height: 0;
@@ -160,10 +167,7 @@ object-fit: cover;
  background-size: cover;   
  padding-top: 500px;
  padding-bottom: 500px;
- opacity: 0.5;
- 
- 
- 
+ opacity: 0.7;
 }
 
 .contact-container {
@@ -173,23 +177,30 @@ object-fit: cover;
     float: left;
 }
 
+.contact-container h4 {
+    color: #fff;
+}
+
 
 .form-group {
     color: #fff;
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 20px;
-   margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
+.form-control {
+  background-color: rgba(248, 247, 247, 0.8);
+}
 
 .form-send-btn {
-    background-color: #fc6336;
+    background-color: #656d35;
     color: #fff;
-    margin-top: 20px;
-   
+    margin-top: 20px;  
 }
+
+
 
 
 /*-----------------------------Footer */
@@ -214,7 +225,7 @@ object-fit: cover;
     font-size: 2rem;
     margin-bottom: 15px;
     margin-right: 20px;
-    color: #fc6336;
+    color: #c95512;
 }
 
 .cta-btn {
@@ -225,14 +236,12 @@ object-fit: cover;
     background-color: #fff;
     padding: 20px;
     z-index: 1;
-
 }
 
 .cta-btn i {
     text-decoration: none;
     font-size: 4rem;
-    color: #fc6336;
-    
+    color: #c95512;
 }
 
 /* ----------------------------------------Media queries */
@@ -252,8 +261,7 @@ object-fit: cover;
     float: none;
     text-align: center;
     width: 100%;
-    padding: 20%;
-   
+    padding: 15%;
 }
     
 }
