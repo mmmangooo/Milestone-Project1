@@ -1,21 +1,25 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@500&family=Roboto:wght@300;400&display=swap');
 
 
 body {
-    font-family:;
-  
-   
+    font-family: "Raleway", sans-serif;
+    font-size: 0.95rem;
+    background-color: #fbfcf2; 
 }
 
 h1, h4, h5 {
     color: #656d35;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
 }
 
 
 .content-container {
     margin-bottom: 200px;
     text-align: center;
+    padding: 80px 0;
 
 }
 /*------------------ Header section */
@@ -24,11 +28,9 @@ h1, h4, h5 {
     margin-bottom: 200px;
     padding: 0;
     position: relative;
-    max-height: 900px;
+    max-height: 820px;
     overflow: hidden;
-    
 }
-
 
 .header-container h1 {
     margin: 0;
@@ -36,10 +38,9 @@ h1, h4, h5 {
     position: fixed;
     top:40px;
     left: 40px;
-    font-family: "Bad Script", serif;
-    font-size: 3rem;
-    font-weight: bold;
-    
+    font-family: "Dancing Script", serif;
+    font-size: 3.5rem;
+    font-weight: bold; 
 }
 
 
@@ -53,7 +54,7 @@ h1, h4, h5 {
     z-index: 1;
 }
 
-.nav-link a {
+.navbar-toggler {
     color: #656d35;
 }
 
@@ -69,6 +70,7 @@ h1, h4, h5 {
    .about-col p {
     margin-top: 40px;
     margin-right: 80px; 
+    color: #72726c;
     }
 
  .about-self-img {
@@ -135,13 +137,6 @@ object-fit: cover;
 
 /*---------------------------------------Gallery*/
 
-#gallery {
-    padding-top: 80px;
-    padding-bottom: 20px;
-    background-color: #fcfce5
-;
-}
-
 
 .gallery-container {
     line-height: 0;
@@ -149,8 +144,7 @@ object-fit: cover;
     column-gap: 2px;
     margin-top: 100px;
     margin-bottom: 200px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .gallery-container img {
@@ -208,24 +202,23 @@ object-fit: cover;
 .footer {
     height: 7%;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 80px;
     position: fixed;
     bottom: 0;
-    background-color: transparent;
-    
+    background-color: transparent; 
+    z-index: 1;
 }
 
 .footer p {
-    font-size: 1rem;
-    margin: 0;
-    color: rgba(248, 247, 247, 0.8);
+    font-size: 0.8rem;
+    color: #656d35;
 }
 
 .social-icon {
     font-size: 2rem;
     margin-bottom: 15px;
     margin-right: 20px;
-    color: #c95512;
+    color: #656d35
 }
 
 .cta-btn {
@@ -244,12 +237,20 @@ object-fit: cover;
     color: #c95512;
 }
 
+
 /* ----------------------------------------Media queries */
 
 @media screen and (max-width: 767px) {
 
+.header-container {
+    margin: 0;
+}
+
+.header-container h1 {
+    font-size: 2.5rem;
+    left: 10px;
+}
 .about-col {
-    
     margin: 40px;
 }
 
@@ -263,11 +264,20 @@ object-fit: cover;
     width: 100%;
     padding: 15%;
 }
+
+.cta-btn {
+    bottom: 20px;
+    right: 20px;
+}
+
+.cta-btn i {
+    font-size: 3rem;
+}
     
 }
 
 @media screen and (max-width: 575px) {
-.about-self-image {
+     .about-self-image {
         float: none;
 }
 
