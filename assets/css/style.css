@@ -153,7 +153,7 @@ object-fit: cover;
 /* Credit for the code below making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
 
 .background-container {
- background: url("../assets/images/contactcontainer-bg.jpg") no-repeat;
+ background: url("../images/contactcontainer-bg.jpg") no-repeat;
  background-size: cover;   
  padding-top: 500px;
  padding-bottom: 500px;
