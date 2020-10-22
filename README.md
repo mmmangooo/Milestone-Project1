@@ -52,17 +52,31 @@ The client goals of this website is to:
 #### Design 
 
 * Color scheme
+The purpose of the colors chosen is to create good contrast for the reader, as well as making the site easy on the eyes an visually appealling.
+ 
+- For body background and some headings, #fbfcf2 is used
+- For some headings, footer icons and footer text and send button in contact form.
+A dark orange contrast color, #c95512, is used for the call to action button and a slightly green dark grey hue, #72726c, is used for the paragraph text in About section. 
+
 
 * Typography
+The intention behind the fonts chosen is to create a personal, yet professional impression with good readability. The Raleway font in my opinion has a look of friendliness without being personal to the extent of giving an unprofessional impression. It halso has good redability due to clear separation of words and letters and is therefor suitable for longer texts, as well as for headlines. 
+As for the H1 in the header, the purpose of the chosen font, Dancing Script, is to give an impression of creativity and personality as well as to be esthetically pleasing. 
 
 * Imagery
     * The imagery is of great importance since the photos on the page are examples of the products that the site owner is selling 
-    * The header images on the home page are chosen to be eye-striking and spark an interest in seeing more, and they are displayed in a carousel to make a more vivid impression and make possible to show more than one photo
- 
+    * The header images on the home page are chosen to be eye-striking and spark an interest in seeing more, and they are displayed in a carousel to make a more vivid impression and make possible to show more than one photo. 
 
 #### Wireframe mockups:
 
-/**Links
+[Link to wireframes:](./assets/images/Wireframes-MS1.pdf)
+
+#### Differences to Design
+When actually coding the site, some of the design choices I made turned out to be either complicated to achieve or creating bad UX. As there is not endless resources of time, and the developer is not yet very accomplished, some things in the design needed to be reconsidered.
+* In the wireframes, the navbar is vertically aligned, which when actually building the web-site turned out to be a bit too complicated to code and also would take up too much space on the header on smaller screens, so this was changed to a horizontal navbar.
+* The gallery page was originally meant to consist of two different sections, one for pregnancy photo and one for children. However this seemed unnecessarily cluttered when actually carried out on the screen and therefor was changed to just one gallery of mixed photos.
+* The footer was originally meant to be fixed at the bottom and visible throughout the page. This was pointed out by the mentor as bad UX, and therefor changed.
+* The contact page was designed to have a round image on it along with the contact form. However this image turned out to clutter the contact page and hide the background image too much, so it was removed.
 
 ## Features
 
@@ -107,6 +121,7 @@ A pricing page will be implemented when the photographer have started up her bus
 * [Google Fonts](https://fonts.google.com/) - The project uses Google Fonts for styling fonts.
 * [Font Awesome](https://fontawesome.com/) - The project uses Font Awesome for icons.
 * [Balsamiq](https://balsamiq.com/) - This project uses Balsamiq for creating the wireframes during the design process.
+* [Material Color tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) - This project uses Material's color tool for choosing colors and creating a color scheme.
 
 ## Testing
 
@@ -121,7 +136,40 @@ A pricing page will be implemented when the photographer have started up her bus
 
 ### Known bugs
 
+#### During development
+* Mobile responsiveness for about section not working as intended. The column with round images has display:none set for tablet and mobile devices, but still occupies space on the screen, thus preventing the column with about text and portrait of photographer from centering on the page.
+ - ?
+* Footer content showing up on contact background-container on mobile devices.
+- ?
+
+
 ## Deployment
+This website was developed on GitPod, using git and GitHub to host the repository.
+
+When deploying this website using GitHub Pages the following steps were made:
+
+Opened up GitHub in the browser.
+Signed in using username and password.
+Selected my repositories.
+Navigated to Milestone-Project1.
+In the top navigation clicked settings.
+Scrolled down to the GitHub Pages area.
+Selected Master Branch from the Source dropdown menu.
+Clicked to confirm my selection.
+The website was now live on GitHub Pages.
+
+
+Cloning the website from GitHub:
+
+Navigate to the GitHub repository: https://github.com/mmmangooo/Milestone-Project1.
+Click the green Clone or Download button.
+Copy the url in the dropdown box.
+Using your favourite IDE open up your preferred terminal.
+Navigate to your desired file location.
+Use the 'git clone' command in terminal followed by the copied git URL
+A clone of the project will be created locally on your machine
+
+
 
 ### GitHub Pages
 

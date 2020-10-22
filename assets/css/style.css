@@ -56,10 +56,10 @@ h1, h4, h5 {
     
 }
 
-.nav-color {
-    color: #656d35;
-}
 
+.navbar-nav li a {
+color: #656d35;
+}
 
 
 /*---------------About section */
@@ -175,7 +175,7 @@ object-fit: cover;
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 20px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
 }
 
 .form-control {
@@ -196,7 +196,7 @@ object-fit: cover;
 
 .footer {
     height: 100px; 
-    background: transparent;
+    background: #fbfcf2;
 }
 
 .footer p {
@@ -279,5 +279,9 @@ h4 {
 
    .contact-container {
         padding: 10%;
+    }
+
+    .footer {
+        height: 200px;
     }
 }
