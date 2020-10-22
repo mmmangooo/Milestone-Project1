@@ -41,6 +41,7 @@ h1, h4, h5 {
     font-family: "Dancing Script", serif;
     font-size: 3.5rem;
     font-weight: bold; 
+    color: #fbfcf2;
 }
 
 
@@ -103,28 +104,22 @@ h1, h4, h5 {
 }
 
 .third-img-container {
-   top: 40px;
+   top: 60px;
 }
 
 #first-about-img {
-/*position: absolute;
-top: 0; bottom: 0; left: 0; right: 0;*/
 width: 100%;
 height: 100%;
 object-fit: cover;
 }
 
 #second-about-img {
-position: absolute;
-top: 0; bottom: 0; left: 0; right: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
 }
 
 #third-about-img {
-position: absolute;
-top: 0; bottom: 0; left: 0; right: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
@@ -165,6 +160,7 @@ object-fit: cover;
     margin-top: -800px;
     width: 50%;
     float: left;
+    padding: 40px;
 }
 
 .contact-container h4 {
@@ -200,21 +196,20 @@ object-fit: cover;
 
 .footer {
     height: 100px; 
-    background-color: #949b60c4;
+    background: transparent;
 }
-
 
 .footer p {
     font-size: 0.8rem;
-    color: #fbfcf2;
-    margin: 10px;
+    color: #656d35;
+    margin-top: 10px;
    
 }
 
 .social-icon {
     font-size: 1.8rem;
-    margin: 15px;
-    color: #fbfcf2;
+    margin: 40px 10px 20px; 
+    color: #656d35;
 }
 
 .cta-btn {
@@ -273,7 +268,7 @@ h4 {
     
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
     /* .about-self-image {
         float: none;
 }*/
