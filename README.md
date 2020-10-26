@@ -2,6 +2,9 @@
 
 [A live version of the page can be viewed here](https://mmmangooo.github.io/Milestone-Project1/)
 
+
+![Image of the website in mobile, tablet and full screen versions.](.assets/images/AmIResponsive.PNG "Elenores fotografi")
+
 This is a one page webpage for amateur photographer Elenore Henriksson. Its purpose is to show off her work to potential clients and others interested in seeing an example of her photos.
 The entire page is responsive and customized for desktop, tablets and mobile phone. The design is largely focused on giving the viewer an immediate view of the quality of Elenore´s work and making it easy to take the step to get in touch with her.
 Becuase this is a site aimed at private clients (B2C), the site is designed with the clients emotion-driven decision-making in mind. Therefore it contains a lot of images, which are in focus on all pages, and a rather simple but eye-catching design.
