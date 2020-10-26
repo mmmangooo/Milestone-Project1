@@ -168,6 +168,9 @@ object-fit: cover;
     color: #fff;
     margin-top: 20px;  
 }
+.form-send-btn:hover {
+    color:#c95512;
+}
 
 /*-----------------------------Footer */
 
