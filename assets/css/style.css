@@ -1,13 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@500&family=Roboto:wght@300;400&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: "Raleway", sans-serif;
     font-size: 0.95rem;
     background-color: #fbfcf2; 
+    margin: 0;
 }
-h4, h5 {
+.heading {
     color: #656d35;
     font-size: 2rem;
     font-weight: 500;
@@ -15,7 +19,7 @@ h4, h5 {
 }
 
 .content-container {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     text-align: center;
 }
 
@@ -24,10 +28,10 @@ h4, h5 {
 .header-container {
     overflow: hidden;
     padding: 0;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 .carousel-container { 
-    margin: 80px 0; 
+    margin: 5rem 0; 
 }
 
 /* -------------- Navigation bar */
@@ -44,11 +48,11 @@ h4, h5 {
     font-weight: bold; 
     color: #c95512;
     float: left;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .navbar {
     float: right;
-    margin-top: 10px; 
+    margin-top: 0.625rem; 
 }
 .nav-link {
 color: #c95512 !important;
@@ -58,17 +62,17 @@ font-weight: bold;
 /*---------------About section */
 
 .about-col {
-    padding: 0 60px;
+    padding: 0 3.75rem;
 }
 .about-col p {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     color: #72726c;
 }
 .about-self-img {
     height: 40%;
     width: 40%;
     float:left;
-    margin: 40px;
+    margin: 2.5rem;
     border-radius: 50%;
     /*Credit for the line of code below, making text wrap image in circular shape: https://css-tricks.com/almanac/properties/s/shape-outside/*/
     shape-outside: circle(50%); 
@@ -78,21 +82,21 @@ font-weight: bold;
  .circular-responsive-img {
      position: relative;
      border-radius: 50%;
-     width: 200px;
-     height: 200px;
+     width: 12.5rem;
+     height: 12.5rem;
      overflow: hidden;
      display: inline-block;
  }
 .first-img-container {
-    top: 40px;
-    right: 20px;
+    top: 2.5rem;
+    right: 1.25rem;
 }
 .second-img-container {
-    bottom: 40px;
-    left: 20px;   
+    bottom: 2.5rem;
+    left: 1.25rem;   
 }
 .third-img-container {
-   top: 60px;
+   top: 3.75rem;
 }
 
 #first-about-img {
@@ -118,9 +122,9 @@ object-fit: cover;
 .gallery-container {
     line-height: 0;
     column-count: 4;
-    column-gap: 2px;
-    margin-top: 80px;
-    margin-bottom: 200px;
+    column-gap: 0.125rem;
+    margin-top: 5rem;
+    margin-bottom: 12.5rem;
     width: 100%;  
 }
 .gallery-container img {
@@ -135,35 +139,35 @@ object-fit: cover;
 .background-container {
  background: url("../images/contactcontainer-bg.jpg") no-repeat;
  background-size: cover;   
- padding-top: 500px;
- padding-bottom: 500px;
+ padding-top: 31.25rem;
+ padding-bottom: 31.25rem;
  opacity: 0.7;
  overflow: hidden;
 }
 .contact-container {
     position: relative;
-    margin-top: -800px;
+    margin-top: -50rem;
     width: 50%;
     float: left;
-    padding: 40px;
-    height: 800px;
+    padding: 2.5rem;
+    height: 50rem;
 }
 .contact-container h4 {
     color: #fbfcf2;
-    margin: 40px 0;
+    margin-bottom: 2.5rem;
 }
 .contact-container p {
     color:  #fbfcf2;
     font-size: 1rem;
     font-style: italic;
-    margin-bottom: 40px;
+    margin-bottom: 5rem;
 }
 .form-group {
     color: #fff;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;  
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;  
 }
 .form-control {
   background-color: rgba(248, 247, 247, 0.8);
@@ -171,7 +175,7 @@ object-fit: cover;
 .form-send-btn {
     background-color: #656d35;
     color: #fff;
-    margin-top: 20px;  
+    margin-top: 1.25rem;  
 }
 .form-send-btn:hover {
     color:#c95512;
@@ -181,24 +185,25 @@ object-fit: cover;
 
 .footer {
     background: #fbfcf2;
+    text-align: center;
 }
-.footer p {
+.copyright {
     font-size: 0.8rem;
     color: #656d35;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .social-icon {
     font-size: 1.8rem;
-    margin: 40px 10px 20px; 
+    margin: 2.5rem 0.625rem 1.25rem; 
     color: #656d35;
 }
 .cta-btn {
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 2.5rem;
+    right: 2.5rem;
     border-radius: 50%;
     background-color: #fbfcf2;
-    padding: 20px;
+    padding: 1.25rem;
     z-index: 1;
 }
 .cta-btn i {
@@ -214,16 +219,16 @@ object-fit: cover;
 
 @media screen and (max-width: 770px) {
 
-h4 {
+.heading {
     margin-top: 0;
 }
 .header-container {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 .logo{
     font-size: 2.5rem;
-    left: 10px;
-    top: 10px;
+    left: 0.625rem;
+    top: 0.625rem;
 }
 .gallery-container {
     column-count: 3;
@@ -234,8 +239,8 @@ h4 {
     width: 100%;
 }
 .cta-btn {
-    bottom: 20px;
-    right: 20px;
+    bottom: 1.25rem;
+    right: 1.25rem;
 }
 .cta-btn i {
     font-size: 3rem;
@@ -247,15 +252,10 @@ h4 {
 
 @media screen and (max-width: 576px) {
     .logo {
-    font-size: 1rem;
-    margin: 10px 5px;
+    margin: 0.625rem 0.3125;
     }
-    h4 {
+    .heading {
         font-size: 1.5rem;
-    }
-    .logo {
-       font-size: 2rem;
-       margin-top: 8px;
     }
     .navbar {
         padding: 0 .5rem;
@@ -270,17 +270,17 @@ h4 {
         float: none;
     }
     .about-col p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     }
     .gallery-container {
         column-count: 2; 
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
    .contact-container {
         padding: 0;
         width: 100%;
     }
     .footer {
-        height: 100px;
+        height: 6.25rem;
     }
 }
