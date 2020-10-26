@@ -1,6 +1,6 @@
 # *Elenore's photos*
 
-/* Link to webpage */
+[A live version of the page can be viewed here](https://mmmangooo.github.io/Milestone-Project1/)
 
 This is a one page webpage for amateur photographer Elenore Henriksson. Its purpose is to show off her work to potential clients and others interested in seeing an example of her photos.
 The entire page is responsive and customized for desktop, tablets and mobile phone. The design is largely focused on giving the viewer an immediate view of the quality of Elenore´s work and making it easy to take the step to get in touch with her.
@@ -77,6 +77,7 @@ When actually coding the site, some of the design choices I made turned out to b
 * The gallery page was originally meant to consist of two different sections, one for pregnancy photo and one for children. However this seemed unnecessarily cluttered when actually carried out on the screen and therefor was changed to just one gallery of mixed photos.
 * The footer was originally meant to be fixed at the bottom and visible throughout the page. This was pointed out by the mentor as bad UX, and therefor changed.
 * The contact page was designed to have a round image on it along with the contact form. However this image turned out to clutter the contact page and hide the background image too much, so it was removed.
+* The navbar and logo was originally intended to appear on top of carousel container, but this proved to create issues with readability. 
 
 ## Features
 
@@ -140,7 +141,7 @@ A pricing page will be implemented when the photographer have started up her bus
 * Mobile responsiveness for about section not working as intended. The column with round images has display:none set for tablet and mobile devices, but still occupies space on the screen, thus preventing the column with about text and portrait of photographer from centering on the page.
  - Changed setting for about-col from col-sm-6 to col-12 col-lg-6 so that it takes up the entire width of the screen on mobile and tablet devices and 50% of the screen on large devices.
 * Footer content showing up on contact background-container on mobile devices.
-- Increased set height of footer container.
+- Set a fixed height to contact container.
 * Unable to customize color of navbar links, seems like impossible to override the bootstrap set color.
 - Added !important to .nav-link color setting. 
 
@@ -161,8 +162,6 @@ Scrolled down to the GitHub Pages area.
 Selected Master Branch from the Source dropdown menu.
 Clicked to confirm my selection.
 The website was now live on GitHub Pages.
-
-### Forking the GitHub Repository
 
 ### Making a Local Clone
 Navigate to the GitHub repository: https://github.com/mmmangooo/Milestone-Project1.

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Elenores fotografi</title>
+    <title>Elenores fotografi</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -15,7 +15,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-   
   </head>
 
   <body>
@@ -23,44 +22,43 @@
     <section id="header">
       <header>
         <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
-          <div class="nav-container">
-            <a href="#header"><h1 class="logo">Elenores fotografi</h1></a>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-none">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+        <div class="nav-container">
+          <a href="#header"><h1 class="logo">Elenores fotografi</h1></a>
+          <nav class="navbar navbar-expand-lg">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#header"
-                      >Hem <span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">Om mig</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Galleri</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#header"
+                    >Hem <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Om mig</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Galleri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
         <div class="header-container container-fluid">
-         
-        <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
+          <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
           <div
             id="carouselLandscape"
             class="carousel slide carousel-fade d-none d-md-block carousel-container"
@@ -91,9 +89,9 @@
             </div>
           </div>
 
-           <div
+          <div
             id="carouselMobile"
-            class="carousel slide carousel-fade  d-block d-md-none "
+            class="carousel slide carousel-fade d-block d-md-none"
             data-ride="carousel"
           >
             <div class="carousel-inner">
@@ -120,7 +118,7 @@
               </div>
             </div>
           </div>
-            </div>
+        </div>
       </header>
     </section>
 
@@ -130,16 +128,16 @@
       <div class="content-container">
         <div class="row align-items-center">
           <div class="about-col col-12 col-lg-6">
-          <h4>Om mig</h4>
+            <h4>Om mig</h4>
             <img
               class="about-self-img"
               src="./assets/images/Elenore.jpg"
               alt="The photographer, a dark-blonde woman, looking into the camera, holding her camera"
             />
-            
+
             <p>
-              Välkommen till min sida för personligt familjefoto! För mig är det
-              viktigt att du får ut mer av fotostunden än bara bilder, jag
+              Välkommen till min hemsida för personligt familjefoto! För mig är
+              det viktigt att du får ut mer av fotostunden än bara bilder, jag
               tycker att en fotografering ska vara en rolig upplevelse med
               känslor och äkthet som syns i bilderna. Det här med att
               fotografera uppställt och poserat är inte min grej utan jag tar
@@ -148,9 +146,9 @@
               ni ska kunna slappna av och lita på att jag som fotograf förevigar
               era finaste ögonblick just precis som de är. Så strunta i vinden
               som tar tag i håret eller regnet som ligger i luften, bortse från
-              fläcken på klänningen och bara längta ihjäl dig efter ditt ofödda
-              barn som vilar tryggt i magen eller se din kärlek djupt i ögonen,
-              medan jag tar hand om att föreviga ögonblicket som är livet.
+              fläcken på klänningen och bara längta efter ditt ofödda barn som
+              vilar tryggt i magen eller se din kärlek djupt i ögonen, medan jag
+              tar hand om att föreviga ögonblicket som är livet.
             </p>
           </div>
           <div class="about-img-col d-none d-lg-block col-lg-6">
@@ -186,7 +184,7 @@
 
     <section id="gallery">
       <div class="content-container">
-      <h4>Galleri</h4>
+        <h4>Galleri</h4>
         <div class="gallery-container container-fluid">
           <img
             src="./assets/images/momandbabysepia.jpg"
@@ -196,20 +194,32 @@
             src="./assets/images/couplehugging.jpg"
             alt="Man standing behind woman, embracing her and looking down, woman looking into camera"
           />
-          <img class="d-none d-md-block"
+          <img
+            class="d-none d-md-block"
             src="./assets/images/mobilecarouselwomanorange.jpg"
             alt="Pregnant woman dressed in black looking down on her belly, with orange leaves in the foregrund"
           />
 
-          <img src="./assets/images/portraitofgirl.jpg" alt="Close up of blonde girl smiling." />
+          <img
+            src="./assets/images/portraitofgirl.jpg"
+            alt="Close up of blonde girl smiling."
+          />
           <img
             src="./assets/images/happycouplelaughing.jpg"
             alt="Happy couple looking at each other with big smiles"
           />
 
-          <img class="d-none d-md-block" src="./assets/images/momandbabyblackandwhite.jpg" alt="Black and white photo of mom with baby in her lap." />
+          <img
+            class="d-none d-md-block"
+            src="./assets/images/momandbabyblackandwhite.jpg"
+            alt="Black and white photo of mom with baby in her lap."
+          />
 
-          <img class="d-none d-md-block" src="./assets/images/womanandbabyinwoods.jpg" alt="Mom standing in the woods holding a baby." />
+          <img
+            class="d-none d-md-block"
+            src="./assets/images/womanandbabyinwoods.jpg"
+            alt="Mom standing in the woods holding a baby."
+          />
           <img
             src="./assets/images/boyblackandwhite.jpg"
             alt="Black and white photo of blonde little boy looking into the camera"
@@ -219,8 +229,14 @@
             alt="Pregnant woman in long light blue dress standing on beach, looking down at her belly and holding it"
           />
 
-          <img src="./assets/images/babyblackandwhite.jpg" alt="Black and white portrait of baby on its tummy with head high." />
-          <img src="./assets/images/dadkissingbaby.jpg" alt="Dad holding baby and kissing him." />
+          <img
+            src="./assets/images/babyblackandwhite.jpg"
+            alt="Black and white portrait of baby on its tummy with head high."
+          />
+          <img
+            src="./assets/images/dadkissingbaby.jpg"
+            alt="Dad holding baby and kissing him."
+          />
         </div>
       </div>
     </section>
@@ -243,6 +259,7 @@
               id="inputName"
               aria-describedby="inputName"
               placeholder="Ditt namn"
+              required
             />
           </div>
           <div class="form-group">
@@ -253,11 +270,17 @@
               id="inputEmail"
               aria-describedby="inputEmail"
               placeholder="Din epostadress"
+              required
             />
           </div>
           <div class="form-group">
             <label for="inputText">Meddelande</label>
-            <textarea class="form-control" id="inputText" rows="6"></textarea>
+            <textarea
+              class="form-control"
+              id="inputText"
+              rows="6"
+              required
+            ></textarea>
           </div>
 
           <button type="submit" class="btn form-send-btn">Skicka</button>
@@ -267,13 +290,11 @@
 
     <!-----------------------------------------Footer section---------------------->
     <footer>
-
       <div class="footer container-fluid">
-      
-        <a  href="#"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="#"><i class="social-icon fab fa-instagram"></i></a>
         <a href="#"><i class="social-icon fab fa-pinterest-p"></i></a>
-     
-        <p>© Copyright Elenore Henriksson 2020 </p>
+
+        <p>© Copyright Elenore Henriksson 2020</p>
       </div>
       <div class="cta-btn">
         <a href="#contact"><i class="fas fa-camera"></i></a>
