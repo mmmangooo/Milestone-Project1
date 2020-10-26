@@ -6,7 +6,6 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 0.95rem;
     background-color: #fbfcf2; 
-   /* text-align: center;*/
 }
 h4, h5 {
     color: #656d35;
@@ -153,6 +152,12 @@ object-fit: cover;
     color: #fbfcf2;
     margin: 40px 0;
 }
+.contact-container p {
+    color:  #fbfcf2;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 40px;
+}
 .form-group {
     color: #fff;
     padding-left: 80px;
@@ -213,7 +218,7 @@ h4 {
     margin-top: 0;
 }
 .header-container {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .logo{
     font-size: 2.5rem;
@@ -246,7 +251,6 @@ h4 {
     margin: 10px 5px;
     }
     h4 {
-       /* margin-top: 20px;*/
         font-size: 1.5rem;
     }
     .logo {
@@ -264,6 +268,9 @@ h4 {
     }
     .about-self-img {
         float: none;
+    }
+    .about-col p {
+    margin-top: 20px;
     }
     .gallery-container {
         column-count: 2; 
