@@ -138,14 +138,18 @@ A pricing page will be implemented when the photographer have started up her bus
 
 #### During development
 * Mobile responsiveness for about section not working as intended. The column with round images has display:none set for tablet and mobile devices, but still occupies space on the screen, thus preventing the column with about text and portrait of photographer from centering on the page.
- - ?
+ - Changed setting for about-col from col-sm-6 to col-12 col-lg-6 so that it takes up the entire width of the screen on mobile and tablet devices and 50% of the screen on large devices.
 * Footer content showing up on contact background-container on mobile devices.
-- ?
+- Increased set height of footer container.
+* Unable to customize color of navbar links, seems like impossible to override the bootstrap set color.
+- Added !important to .nav-link color setting. 
 
 
 ## Deployment
 This website was developed on GitPod, using git and GitHub to host the repository.
 
+
+### GitHub Pages
 When deploying this website using GitHub Pages the following steps were made:
 
 Opened up GitHub in the browser.
@@ -158,9 +162,9 @@ Selected Master Branch from the Source dropdown menu.
 Clicked to confirm my selection.
 The website was now live on GitHub Pages.
 
+### Forking the GitHub Repository
 
-Cloning the website from GitHub:
-
+### Making a Local Clone
 Navigate to the GitHub repository: https://github.com/mmmangooo/Milestone-Project1.
 Click the green Clone or Download button.
 Copy the url in the dropdown box.
@@ -170,22 +174,14 @@ Use the 'git clone' command in terminal followed by the copied git URL
 A clone of the project will be created locally on your machine
 
 
-
-### GitHub Pages
-
-### Forking the GitHub Repository
-
-### Making a Local Clone
-
 ## Credits
-
-
-
-
 
 ### Content
 
 ### Media
+All images is taken and provided to the developer by the photographer herself and are used with permission from the people appearing in the photos.
+
+Social media icons are from Font Awesome -  [Font Awesome](https://fontawesome.com/) 
 
 ### Code
 
@@ -197,4 +193,7 @@ https://css-tricks.com/non-transparent-elements-inside-transparent-elements/
 
 
 ### Acknowledgements
+* Thanks to fellow students on the slack channel for testing and support.
+* Thanks to tutor support for helpful guidance with solving bugs.
+* Thanks to mentor Akshat Garg for valuable input on design and UX.
 

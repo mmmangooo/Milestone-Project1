@@ -17,54 +17,59 @@ h1, h4, h5 {
 }
 
 .content-container {
-   padding: 80px 0;
+   padding: 100px 0 0;
 }
 
 /*------------------ Header section */
 
 .header-container {
-    /*margin-bottom: 200px;*/
-    padding: 0;
-    position: relative;
-    max-height: 820px;
+    height: 820px;
     overflow: hidden;
-}
-
-.header-container h1 {
-    margin: 0;
     padding: 0;
-    position: fixed;
-    top:40px;
-    left: 40px;
-    font-family: "Dancing Script", serif;
-    font-size: 3.5rem;
-    font-weight: bold; 
-    color: #c95512;
 }
 
-
+.carousel-container {
+    height: 820px;   
+    margin: 80px 0; 
+}
 
 /* -------------- Navigation bar */
 
 .nav-container {
     position: fixed;
-    right: 0;
-    top: 40px;
-    z-index: 1;
-    
+    background-color: #fbfcf2;
+    width: 100%;
+    z-index: 2;
 }
 
+.logo{
+    font-family: "Dancing Script", serif;
+    font-size: 3.5rem;
+    font-weight: bold; 
+    color: #c95512;
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar {
+    float: right;
+    margin-top: 10px;
+    
+}
 
 .nav-link {
 color: #c95512 !important;
 font-weight: bold;
 }
 
+.navbar-toggler {
+    color: #c95512 !important;
+}
 
 /*---------------About section */
 
 .about-col {
-    padding: 60px;
+    padding: 0 60px;
 }
 
 .about-col p {
@@ -99,8 +104,7 @@ font-weight: bold;
 
 .second-img-container {
     bottom: 40px;
-    left: 20px;
-    
+    left: 20px;   
 }
 
 .third-img-container {
@@ -158,17 +162,15 @@ object-fit: cover;
 .contact-container {
     position: relative;
     margin-top: -800px;
-    width: 60%;
+    width: 50%;
     float: left;
     padding: 40px;
 }
 
 .contact-container h4 {
     color: #fbfcf2;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
-
-
 
 .form-group {
     color: #fff;
@@ -188,11 +190,7 @@ object-fit: cover;
     margin-top: 20px;  
 }
 
-
-
-
 /*-----------------------------Footer */
-
 
 .footer {
     height: 100px; 
@@ -203,7 +201,6 @@ object-fit: cover;
     font-size: 0.8rem;
     color: #656d35;
     margin-top: 10px;
-   
 }
 
 .social-icon {
@@ -217,7 +214,7 @@ object-fit: cover;
     bottom: 40px;
     right: 40px;
     border-radius: 50%;
-    background-color: #fff;;
+    background-color: #fbfcf2;
     padding: 20px;
     z-index: 1;
 }
@@ -249,7 +246,7 @@ h4 {
 .contact-container {
     float: none;
     text-align: center;
-    width: 100%;
+    width: 90%;
     padding: 15%;
 }
 
@@ -260,8 +257,7 @@ h4 {
 
 .cta-btn i {
     font-size: 3rem;
-}
-    
+}   
 }
 
 @media screen and (max-width: 576px) {
@@ -275,6 +271,7 @@ h4 {
 
    .contact-container {
         padding: 10%;
+        width: 100%;
     }
 
     .footer {

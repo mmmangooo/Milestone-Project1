@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Elenores foton</title>
+     <title>Elenores fotografi</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -22,11 +22,48 @@
     <!---------------------------------Header section------------->
     <section id="header">
       <header>
+        <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
+          <div class="nav-container">
+            <a href="#header"><h1 class="logo">Elenores fotografi</h1></a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#header"
+                      >Hem <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Om mig</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galleri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         <div class="header-container container-fluid">
-          <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
+         
+        <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
           <div
             id="carouselLandscape"
-            class="carousel slide carousel-fade d-none d-md-block "
+            class="carousel slide carousel-fade d-none d-md-block carousel-container"
             data-ride="carousel"
           >
             <div class="carousel-inner">
@@ -83,44 +120,7 @@
               </div>
             </div>
           </div>
-
-          <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
-          <div class="nav-container">
-            <a href="#header"><h1>Elenores fotografi</h1></a>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-none">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#header"
-                      >Hem <span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">Om mig</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Galleri</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
+            </div>
       </header>
     </section>
 
