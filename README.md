@@ -81,6 +81,7 @@ When actually coding the site, some of the design choices I made turned out to b
 * The footer was originally meant to be fixed at the bottom and visible throughout the page. This was pointed out by the mentor as bad UX, and therefor changed.
 * The contact page was designed to have a round image on it along with the contact form. However this image turned out to clutter the contact page and hide the background image too much, so it was removed.
 * The navbar and logo was originally intended to appear on top of carousel container, but this proved to create issues with readability. 
+* Added customer quotes to contact section during development.
 
 ## Features
 

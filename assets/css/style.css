@@ -18,6 +18,7 @@ body {
 .content-container {
     margin-bottom: 6.25rem;
     text-align: center;
+    width: 100%;
 }
 
 /*------------------ Header section */
@@ -26,9 +27,11 @@ body {
     overflow: hidden;
     padding: 0;
     margin-bottom: 5rem;
+    width: 100%;
 }
 .carousel-container { 
-    margin: 5rem 0; 
+    margin: 0 0 5rem; 
+    width: 100%;
 }
 
 /* -------------- Navigation bar */
@@ -36,20 +39,22 @@ body {
 .nav-container {
     position: fixed;
     background-color: #fbfcf2;
-    width: 100vw;
+    width: 100%;
     z-index: 2;
-}
+    top: 0;
+} 
 .logo{
     font-family: "Dancing Script", serif;
     font-size: 3.5rem;
     font-weight: bold; 
     color: #c95512;
-    float: left;
     margin-left: 1.25rem;
 }
+
 .navbar {
-    float: right;
     margin-top: 0.625rem; 
+    background-color: #fbfcf2ec;
+    margin-top: 0;
 }
 .nav-link {
    color: #c95512 !important;
@@ -61,7 +66,7 @@ body {
 .about-col {
     padding: 0 3.75rem;
 }
-.about-col p {
+.about-col-text{
     margin-top: 3.75rem;
     color: #72726c;
 }
@@ -139,6 +144,8 @@ object-fit: cover;
  padding-bottom: 62.5rem;
  opacity: 0.7;
  overflow: hidden;
+ width: 100%;
+ text-align: center;
 }
 .contact-container {
     position: relative;
@@ -147,17 +154,18 @@ object-fit: cover;
     float: left;
     padding: 2.5rem;
     height: 50rem;
+    text-align: center;
 }
 .contact-container h4 {
-    color: #fbfcf2;
+    color: #fcffe2;
     margin-bottom: 2.5rem;
 }
 .contact-customerquote {
-    color:  #fff;
-    font-size: 1rem;
+    color: #fcffe2;
+    font-size: 1.2rem;
     font-style: italic;
-    margin-top: 8rem;
-    margin-left: 1rem;
+    margin: 10rem 1rem;
+    
 }
 .form-group {
     color: #fff;
@@ -175,14 +183,15 @@ object-fit: cover;
     margin-top: 1.25rem;  
 }
 .form-send-btn:hover {
-    color:#c95512;
+    color:#fcffe2;
 }
 
 /*-----------------------------Footer */
 
-.footer {
+footer {
     background: #fbfcf2;
     text-align: center;
+    width: 100%;
 }
 .copyright {
     font-size: 0.8rem;
@@ -246,12 +255,20 @@ object-fit: cover;
 .cta-btn {
     bottom: 1.25rem;
     right: 1.25rem;
+    padding: 0.75rem;
+    transition: padding 1s;
+}
+.cta-btn:hover {
+    padding: 1rem;
+    transition: padding 1s;
 }
 .cta-btn i {
     font-size: 3rem;
+    transition: font-size 1s;
 }
 .cta-btn i:hover {
     font-size: 3.5rem;
+    transition: font-size 1s;
 }      
 }
 
@@ -261,6 +278,7 @@ object-fit: cover;
     }
     .heading {
         font-size: 1.5rem;
+        margin-top: 2rem;
     }
     .navbar {
         padding: 0 .5rem;

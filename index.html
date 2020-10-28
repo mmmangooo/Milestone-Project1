@@ -21,9 +21,8 @@
     <!---------------------------------Header section------------->
       <header>
         <!--Used Bootstrap navigation bar because it is an easy way to obtain clean, functioning and responsive navigation-->
-        <div class="nav-container">
-          <a href="#header"><h1 class="logo">Elenores fotografi</h1></a>
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav class="navbar navbar-expand-lg navbar-light ml-auto fixed-top">
+            <a class="logo-link" href="#header"><h1 class="logo">Elenores fotografi</h1></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -37,7 +36,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#header"
                     >Hem <span class="sr-only">(current)</span></a
@@ -55,8 +54,7 @@
               </ul>
             </div>
           </nav>
-        </div>
-        <div class="header-container container-fluid">
+       
           <!--Used Bootstrap carousel because it provides an easy way to display several images and also provides necessary javascript-->
           <div
             id="carouselLandscape"
@@ -86,7 +84,8 @@
                 />
               </div>
             </div>
-          </div>
+           </div>
+
 
           <div
             id="carouselMobile"
@@ -117,7 +116,6 @@
               </div>
             </div>
           </div>
-        </div>
       </header>
 
     <!-------------------------------------About section----------------->
@@ -133,7 +131,7 @@
               alt="The photographer, a dark-blonde woman, looking into the camera, holding her camera"
             />
 
-            <p>
+            <p class="about-col-text">
               Välkommen till min hemsida för personligt familjefoto! För mig är
               det viktigt att du får ut mer av fotostunden än bara bilder, jag
               tycker att en fotografering ska vara en rolig upplevelse med
@@ -246,7 +244,7 @@
       <p class="contact-customerquote">"Förutom ett fantastiskt slutresultat med jättefina bilder, var det vi uppskattade mest med Elenore hennes varma och hjärtliga bemötande!"<br><br>
       "Elenore tog fantastiska bilder på mig under båda mina graviditeter. Jag tycker inte om att stå framför kameran, men Elenore fick mig att känna mig både bekväm och vacker!"</p>
      </div>
-      <div class="content-container contact-container">
+      <div class=" contact-container">
        
         <h4 class="heading">
           Välkommen att kontakta mig!
@@ -281,6 +279,7 @@
               class="form-control"
               id="inputText"
               rows="6"
+              placeholder="Skriv ditt namn här"
               required
             ></textarea>
           </div>
