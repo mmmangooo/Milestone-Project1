@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@500&family=Roboto:wght@300;400&display=swap');
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
     font-family: "Raleway", sans-serif;
@@ -39,7 +36,7 @@ body {
 .nav-container {
     position: fixed;
     background-color: #fbfcf2;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
 }
 .logo{
@@ -55,8 +52,8 @@ body {
     margin-top: 0.625rem; 
 }
 .nav-link {
-color: #c95512 !important;
-font-weight: bold;
+   color: #c95512 !important;
+   font-weight: bold;
 }
 
 /*---------------About section */
@@ -139,8 +136,7 @@ object-fit: cover;
 .background-container {
  background: url("../images/contactcontainer-bg.jpg") no-repeat;
  background-size: cover;   
- padding-top: 31.25rem;
- padding-bottom: 31.25rem;
+ padding-bottom: 62.5rem;
  opacity: 0.7;
  overflow: hidden;
 }
@@ -156,11 +152,12 @@ object-fit: cover;
     color: #fbfcf2;
     margin-bottom: 2.5rem;
 }
-.contact-container p {
-    color:  #fbfcf2;
+.contact-customerquote {
+    color:  #fff;
     font-size: 1rem;
     font-style: italic;
-    margin-bottom: 5rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
 }
 .form-group {
     color: #fff;
@@ -197,6 +194,7 @@ object-fit: cover;
     margin: 2.5rem 0.625rem 1.25rem; 
     color: #656d35;
 }
+/* Credit for transition code making the button larger on hover, and smaller on hover off: https://css-tricks.com/different-transitions-for-hover-on-hover-off/*/
 .cta-btn {
     position: fixed;
     bottom: 2.5rem;
@@ -205,14 +203,21 @@ object-fit: cover;
     background-color: #fbfcf2;
     padding: 1.25rem;
     z-index: 1;
+    transition: padding 1s;
+}
+.cta-btn:hover {
+    padding: 1.75rem;
+    transition: padding 1s;
 }
 .cta-btn i {
     text-decoration: none;
     font-size: 4rem;
     color: #c95512;
+    transition: font-size 1s;
 }
 .cta-btn i:hover {
     font-size: 5rem;
+    transition: font-size 1s;
 } 
 
 /* ----------------------------------------Media queries */

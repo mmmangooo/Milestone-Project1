@@ -32,11 +32,11 @@ The client goals of this website is to:
 * Is probably a parent or is pregnant/has a pregnant partner
 
 #### Visitors to this website are looking for:
-* An example of good pregnancy photography or children photography, or possibly food/bakery photography
-* A photographer to hire for taking photos of themselves or there children, or possibly food/bakery that they are creating 
+* An example of good pregnancy photography or children photography
+* A photographer to hire for taking photos of themselves or their children/partner
 
 #### This project is the best way to help them achieve this because:
-* It clearly shows off examples of photos in all the above categories
+* It clearly shows off examples of photos in the above categories
 * It has an emphasis on examples of Elenore's photography and therefor makes it easy to get an impression of what her work looks like
 * It is designed with well known UX-rules in mind, such as the Z-design for the landing page
 * It gives information about how Elenore works and what she thinks and acts like as a professional, which makes it easy for the client to decide if they want to hire her
@@ -126,27 +126,71 @@ A pricing page will be implemented when the photographer have started up her bus
 * [Font Awesome](https://fontawesome.com/) - The project uses Font Awesome for icons.
 * [Balsamiq](https://balsamiq.com/) - This project uses Balsamiq for creating the wireframes during the design process.
 * [Material Color tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) - This project uses Material's color tool for choosing colors and creating a color scheme.
+* [ResizeImage.net](https://resizeimage.net/) - The project have used this site for resizing images to smaller size.
+* [Tiny PNG](https://tinypng.com/) - The project have used this site for compressing images.
 
 ## Testing
+
+The page has been manually tested on the functionality of the following:
+* Links in the navigation bar
+* Link in CTA-button
+* Animation on hover over CTA-button
+* Functionality of contact form - field requirement and send button 
+* External links functioning and opening in new browser
 
 ### Testing User Stories from User Experience (UX) Section
 
 * First time visitor
+    1. As a first time visitor I want to quickly get a feel for the quality of this photographer's work
+        - The landing page consists mainly of a large image carousel displaying some of the photographer´s best work, which makes this the first thing the visitor sees.
+        - The navigation bar is clearly visible on the top right, making the path to image gallery easy to find and quick to access.
+    2. As a first time visitor I want to get a clear example of what pregnancy/children/family photo can look like
+        - An example of pregnancy/children/family photo is shown in the large image carousel on landing page
+        - More examples are easily accessible through the navigation bar on top left corner of landing page.
+    3. As a first time visitor, I want to gain knowledge of this photographer as a professional and get a perception of her as a person 
+        - The about section offers information about how the photographer thinks about photography services and how she acts as a professional.
 * Potential client
+    1. As a potential client, I want to see more photos of the type that I am interested in, eg pregnancy or children
+        - A wider example of photos are shown in the gallery section.
 * Interested client
+    1. As an interested client, I want to quickly see how I can contact the photographer to discuss using her service
+        - The navigation bar that is clearly visible on the top right of the landing page, and through all pages, contains a link to contact page, making it easily accessible.
+        - The call to action button in the down right corner of all pages has a bright color that catches the eye and provides a shortcut to contact page.
+    2. As an interested client, I want a user-friendly contact form that is easy to fill in
+        - The contact form has a simple styling and clear visibility to make it easy to understand and quick to fill in.
+    3. As an interest potential client or an observer, I want to follow the photographer on social media so I can see more of her work and be updated on new work 
+        - Links to social media pages are clearly visible in the footer on the last page.
 * Returning visitor
+    1. As a returning visitor who has decided to get in touch with the photographer to discuss hiring her, I want to quickly access the contact page 
+        - The navigation bar that is clearly visible on the top right of the landing page, and through all pages, contains a link to contact page, making it easily accessible.
+        - The call to action button in the down right corner of all pages has a bright color that catches the eye and provides a shortcut to contact page.
+        - The above shortcuts to contact page provided on the site makes it easy for a returning visitor to quickly get to the contact page without viewing the entire site again.
+
+ 
 
 ### Further Testing
+* The HTML code has been validated through [W3 Markup Validation Service](https://validator.w3.org/)
+* The CSS code has been validated thorugh [W3 CSS Validation Service, Jigsaw](https://jigsaw.w3.org/css-validator/)
+* The page has been reviewed by fellow students in the Peer review channel on Slack
+* The page has been reviewed by friends and family, who have looked at it on different mobile devices and commented on responsivity and user experience.
 
 ### Known bugs
 
 #### During development
 * Mobile responsiveness for about section not working as intended. The column with round images has display:none set for tablet and mobile devices, but still occupies space on the screen, thus preventing the column with about text and portrait of photographer from centering on the page.
- - Changed setting for about-col from col-sm-6 to col-12 col-lg-6 so that it takes up the entire width of the screen on mobile and tablet devices and 50% of the screen on large devices.
+    - Changed setting for about-col from col-sm-6 to col-12 col-lg-6 so that it takes up the entire width of the screen on mobile and tablet devices and 50% of the screen on large devices.
 * Footer content showing up on contact background-container on mobile devices.
-- Set a fixed height to contact container.
+    - Set a fixed height to contact container.
 * Unable to customize color of navbar links, seems like impossible to override the bootstrap set color.
-- Added !important to .nav-link color setting. 
+    - Added !important to .nav-link color setting. 
+* Images are too large and takes time to load, even though they have been shrinked in size using [ResizeImage.net](https://resizeimage.net/)  and compressed using [Tiny PNG](https://tinypng.com/).
+    - This problem remains to be solved.
+
+#### During testing
+* The first time the HTML code was run through [W3 Markup Validation Service](https://validator.w3.org/), several errors were found in the path to images used to sites. The errors consisted of blank spaces in the paths.
+    - This problem was solved by renaming images.
+* When this project was posted in Peer Code Review channel on slack, some fellow students discovered issues with a white line on the right of the screen on mobile devices, caused by the navbar taking up a wider space to the right than the rest of the content on page.
+    - Solution?   
 
 
 ## Deployment
@@ -179,9 +223,12 @@ A clone of the project will be created locally on your machine
 ## Credits
 
 ### Content
+* The content for the about page was created by Elenore Henriksson, with some editing by Isabelle Ängsås
+* The content fot the rest of the website was created by Isabelle Ängsås
+* All content has been 
 
 ### Media
-All images is taken and provided to the developer by the photographer herself and are used with permission from the people appearing in the photos.
+All images is taken by, and provided to the developer by, the photographer herself and are used with permission from the people appearing in the photos.
 
 Social media icons are from Font Awesome -  [Font Awesome](https://fontawesome.com/) 
 
@@ -192,6 +239,9 @@ https://css-tricks.com/almanac/properties/s/shape-outside/
 
 Making background-image transparent while elements on top remain non-transparent:
 https://css-tricks.com/non-transparent-elements-inside-transparent-elements/
+
+Making the CTA-button appear larger on hover on and smaller again on hover off, with transition:
+https://css-tricks.com/different-transitions-for-hover-on-hover-off/
 
 
 ### Acknowledgements
