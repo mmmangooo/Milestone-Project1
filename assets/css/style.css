@@ -46,10 +46,15 @@ body {
 .logo-link {
     text-decoration: none;
 }
+.logo-link:hover {
+   text-decoration: none; 
+}
+.logo-link: active {
+   text-decoration: none;  
+}
 .navbar {
-    margin-top: 0.625rem; 
+    margin-top: 0; 
     background-color: #fbfcf2ec;
-    margin-top: 0;
     width: 100%;
 }
 .nav-link {
@@ -73,7 +78,7 @@ body {
     margin: 2.5rem;
     border-radius: 50%;
     /*Credit for the line of code below, making text wrap image in circular shape: https://css-tricks.com/almanac/properties/s/shape-outside/*/
-    shape-outside: circle(50%); 
+    shape-outside: circle(); 
 }
 
 /* Credit for below code for responsive circular images, keeping their shape: https://stackoverflow.com/questions/35336298/responsive-circular-images*/
@@ -152,15 +157,15 @@ object-fit: cover;
     height: 50rem;
     text-align: center;
 }
-.contact-container h4 {
-    color: #fcffe2;
-    margin-bottom: 2.5rem;
-}
 .contact-customerquote {
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
     margin: 10rem 1rem;  
+}
+.contact-container h4 {
+    color: #fcffe2;
+    margin-bottom: 2.5rem;
 }
 .form-group {
     color: #fff;
@@ -269,7 +274,7 @@ footer {
 
 @media screen and (max-width: 576px) {
     .logo {
-    margin: 0.625rem 0.3125;
+    margin: 0.625rem 0.3125rem;
     }
     .heading {
         font-size: 1.5rem;
