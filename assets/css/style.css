@@ -36,13 +36,6 @@ body {
 
 /* -------------- Navigation bar */
 
-.nav-container {
-    position: fixed;
-    background-color: #fbfcf2;
-    width: 100%;
-    z-index: 2;
-    top: 0;
-} 
 .logo{
     font-family: "Dancing Script", serif;
     font-size: 3.5rem;
@@ -50,11 +43,14 @@ body {
     color: #c95512;
     margin-left: 1.25rem;
 }
-
+.logo-link {
+    text-decoration: none;
+}
 .navbar {
     margin-top: 0.625rem; 
     background-color: #fbfcf2ec;
     margin-top: 0;
+    width: 100%;
 }
 .nav-link {
    color: #c95512 !important;
@@ -164,8 +160,7 @@ object-fit: cover;
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
-    margin: 10rem 1rem;
-    
+    margin: 10rem 1rem;  
 }
 .form-group {
     color: #fff;
@@ -278,19 +273,18 @@ footer {
     }
     .heading {
         font-size: 1.5rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .navbar {
         padding: 0 .5rem;
-    }
-    .navbar-toggler {
-        margin: 0;
     }
     .about-col {
         margin-bottom: 0;
     }
     .about-self-img {
         float: none;
+        height: 60%;
+        width: 60%;
     }
     .about-col p {
     margin-top: 1.25rem;
@@ -302,6 +296,9 @@ footer {
    .contact-container {
         padding: 0;
         width: 100%;
+    }
+    .contact-customerquote {
+        font-size: 1rem;
     }
     .footer {
         height: 6.25rem;
