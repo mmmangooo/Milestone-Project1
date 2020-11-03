@@ -1,11 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@500&family=Roboto:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@500&family=Roboto:wght@300;400&display=swap");
 
 body {
     font-family: "Raleway", sans-serif;
     font-size: 0.95rem;
-    background-color: #fbfcf2; 
+    background-color: #fbfcf2;
     margin: 0;
 }
 .heading {
@@ -23,23 +21,17 @@ body {
 
 /*------------------ Header section */
 
-.header-container {
-    overflow: hidden;
-    padding: 0;
-    margin-bottom: 5rem;
-    width: 100%;
-}
-.carousel-container { 
-    margin: 0 0 5rem; 
+.carousel-container {
+    margin: 0 0 5rem;
     width: 100%;
 }
 
 /* -------------- Navigation bar */
 
-.logo{
+.logo {
     font-family: "Dancing Script", serif;
     font-size: 3.5rem;
-    font-weight: bold; 
+    font-weight: bold;
     color: #c95512;
     margin-left: 1.25rem;
 }
@@ -47,19 +39,19 @@ body {
     text-decoration: none;
 }
 .logo-link:hover {
-   text-decoration: none; 
+    text-decoration: none;
 }
-.logo-link: active {
-   text-decoration: none;  
+.logo-link:active {
+    text-decoration: none;
 }
 .navbar {
-    margin-top: 0; 
+    margin-top: 0;
     background-color: #fbfcf2ec;
-    width: 100%;
+    max-width: 100%;
 }
 .nav-link {
-   color: #c95512 !important;
-   font-weight: bold;
+    color: #c95512 !important;
+    font-weight: bold;
 }
 
 /*---------------About section */
@@ -67,60 +59,58 @@ body {
 .about-col {
     padding: 0 3.75rem;
 }
-.about-col-text{
+.about-col-text {
     margin-top: 3.75rem;
     color: #72726c;
 }
 .about-self-img {
     height: 40%;
     width: 40%;
-    float:left;
+    float: left;
     margin: 2.5rem;
     border-radius: 50%;
     /*Credit for the line of code below, making text wrap image in circular shape: https://css-tricks.com/almanac/properties/s/shape-outside/*/
-    shape-outside: circle(); 
+    shape-outside: circle();
 }
 
 /* Credit for below code for responsive circular images, keeping their shape: https://stackoverflow.com/questions/35336298/responsive-circular-images*/
- .circular-responsive-img {
-     position: relative;
-     border-radius: 50%;
-     width: 12.5rem;
-     height: 12.5rem;
-     overflow: hidden;
-     display: inline-block;
- }
+.circular-responsive-img {
+    position: relative;
+    border-radius: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+    overflow: hidden;
+    display: inline-block;
+}
 .first-img-container {
     top: 2.5rem;
     right: 1.25rem;
 }
 .second-img-container {
     bottom: 2.5rem;
-    left: 1.25rem;   
+    left: 1.25rem;
 }
 .third-img-container {
-   top: 3.75rem;
+    top: 3.75rem;
 }
 
 #first-about-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #second-about-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #third-about-img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-
 /*---------------------------------------Gallery*/
-
 
 .gallery-container {
     line-height: 0;
@@ -128,7 +118,7 @@ object-fit: cover;
     column-gap: 0.125rem;
     margin-top: 5rem;
     margin-bottom: 12.5rem;
-    width: 100%;  
+    width: 100%;
 }
 .gallery-container img {
     width: 100%;
@@ -136,17 +126,16 @@ object-fit: cover;
 
 /*----------------------------Contact section */
 
-
 /* Credit for the code below making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
 
 .background-container {
- background: url("../images/contactcontainer-bg.jpg") no-repeat;
- background-size: cover;   
- padding-bottom: 62.5rem;
- opacity: 0.7;
- overflow: hidden;
- width: 100%;
- text-align: center;
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 50rem;
+    opacity: 0.7;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
 }
 .contact-container {
     position: relative;
@@ -161,7 +150,7 @@ object-fit: cover;
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
-    margin: 10rem 1rem;  
+    margin: 10rem 1rem;
 }
 .contact-container h4 {
     color: #fcffe2;
@@ -172,18 +161,18 @@ object-fit: cover;
     padding-left: 5rem;
     padding-right: 5rem;
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;  
+    margin-bottom: 1.25rem;
 }
 .form-control {
-  background-color: rgba(248, 247, 247, 0.8);
+    background-color: rgba(248, 247, 247, 0.8);
 }
 .form-send-btn {
     background-color: #656d35;
     color: #fff;
-    margin-top: 1.25rem;  
+    margin-top: 1.25rem;
 }
 .form-send-btn:hover {
-    color:#fcffe2;
+    color: #fcffe2;
 }
 
 /*-----------------------------Footer */
@@ -200,7 +189,7 @@ footer {
 }
 .social-icon {
     font-size: 1.8rem;
-    margin: 2.5rem 0.625rem 1.25rem; 
+    margin: 2.5rem 0.625rem 1.25rem;
     color: #656d35;
 }
 /* Credit for transition code making the button larger on hover, and smaller on hover off: https://css-tricks.com/different-transitions-for-hover-on-hover-off/*/
@@ -227,61 +216,60 @@ footer {
 .cta-btn i:hover {
     font-size: 5rem;
     transition: font-size 1s;
-} 
+}
 
 /* ----------------------------------------Media queries */
 
 @media screen and (max-width: 770px) {
-
-.heading {
-    margin-top: 0;
-}
-.header-container {
-    margin-bottom: 3.75rem;
-}
-.logo{
-    font-size: 2.5rem;
-    left: 0.625rem;
-    top: 0.625rem;
-}
-.gallery-container {
-    column-count: 3;
-}
-.contact-container {
-    float: none;
-    padding: 0;
-    width: 100%;
-}
-.cta-btn {
-    bottom: 1.25rem;
-    right: 1.25rem;
-    padding: 0.75rem;
-    transition: padding 1s;
-}
-.cta-btn:hover {
-    padding: 1rem;
-    transition: padding 1s;
-}
-.cta-btn i {
-    font-size: 3rem;
-    transition: font-size 1s;
-}
-.cta-btn i:hover {
-    font-size: 3.5rem;
-    transition: font-size 1s;
-}      
+    .heading {
+        margin-top: 0;
+    }
+    .header-container {
+        margin-bottom: 3.75rem;
+    }
+    .logo {
+        font-size: 2.5rem;
+        left: 0.625rem;
+        top: 0.625rem;
+    }
+    .gallery-container {
+        column-count: 3;
+    }
+    .contact-container {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+    .cta-btn {
+        bottom: 1.25rem;
+        right: 1.25rem;
+        padding: 0.75rem;
+        transition: padding 1s;
+    }
+    .cta-btn:hover {
+        padding: 1rem;
+        transition: padding 1s;
+    }
+    .cta-btn i {
+        font-size: 3rem;
+        transition: font-size 1s;
+    }
+    .cta-btn i:hover {
+        font-size: 3.5rem;
+        transition: font-size 1s;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .logo {
-    margin: 0.625rem 0.3125rem;
+        margin: 0.625rem 0.3125rem;
     }
     .heading {
         font-size: 1.5rem;
         margin-top: 3rem;
     }
     .navbar {
-        padding: 0 .5rem;
+        padding: 0 0.5rem;
     }
     .about-col {
         margin-bottom: 0;
@@ -292,13 +280,13 @@ footer {
         width: 60%;
     }
     .about-col p {
-    margin-top: 1.25rem;
+        margin-top: 1.25rem;
     }
     .gallery-container {
-        column-count: 2; 
+        column-count: 2;
         margin-bottom: 1.25rem;
     }
-   .contact-container {
+    .contact-container {
         padding: 0;
         width: 100%;
     }
