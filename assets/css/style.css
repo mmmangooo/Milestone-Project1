@@ -19,14 +19,14 @@ body {
     width: 100%;
 }
 
-/*------------------ Header section */
+/*--------------------------Header section --------------------*/
 
 .carousel-container {
     margin: 0 0 5rem;
     width: 100%;
 }
 
-/* -------------- Navigation bar */
+/* ------------------------- Navigation bar--------------------*/
 
 .logo {
     font-family: "Dancing Script", serif;
@@ -35,45 +35,52 @@ body {
     color: #c95512;
     margin-left: 1.25rem;
 }
+
 .logo-link {
     text-decoration: none;
 }
+
 .logo-link:hover {
     text-decoration: none;
 }
+
 .logo-link:active {
     text-decoration: none;
 }
+
 .navbar {
     margin-top: 0;
     background-color: #fbfcf2ec;
     max-width: 100%;
 }
+
 .nav-link {
     color: #c95512 !important;
     font-weight: bold;
 }
 
-/*---------------About section */
+/*--------------------------About section------------------------*/
 
 .about-col {
     padding: 0 3.75rem;
 }
+
 .about-col-text {
     margin-top: 3.75rem;
     color: #72726c;
 }
+
 .about-self-img {
     height: 40%;
     width: 40%;
     float: left;
     margin: 2.5rem;
     border-radius: 50%;
-    /*Credit for the line of code below, making text wrap image in circular shape: https://css-tricks.com/almanac/properties/s/shape-outside/*/
-    shape-outside: circle();
+    /*Credit for making text wrap image in circular shape: https://css-tricks.com/almanac/properties/s/shape-outside/*/
+    shape-outside: circle(50%);
 }
 
-/* Credit for below code for responsive circular images, keeping their shape: https://stackoverflow.com/questions/35336298/responsive-circular-images*/
+/* Credit for responsive circular images, keeping their shape: https://stackoverflow.com/questions/35336298/responsive-circular-images*/
 .circular-responsive-img {
     position: relative;
     border-radius: 50%;
@@ -82,14 +89,17 @@ body {
     overflow: hidden;
     display: inline-block;
 }
+
 .first-img-container {
     top: 2.5rem;
     right: 1.25rem;
 }
+
 .second-img-container {
     bottom: 2.5rem;
     left: 1.25rem;
 }
+
 .third-img-container {
     top: 3.75rem;
 }
@@ -99,18 +109,20 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
 #second-about-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 #third-about-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/*---------------------------------------Gallery*/
+/*-------------------------------Gallery------------------------------*/
 
 .gallery-container {
     line-height: 0;
@@ -120,13 +132,14 @@ body {
     margin-bottom: 12.5rem;
     width: 100%;
 }
+
 .gallery-container img {
     width: 100%;
 }
 
-/*----------------------------Contact section */
+/*------------------------------Contact section----------------------*/
 
-/* Credit for the code below making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
+/* Credit for making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
 
 .background-container {
     background: url("../images/contact-bg.jpg") no-repeat;
@@ -137,6 +150,7 @@ body {
     width: 100%;
     text-align: center;
 }
+
 .contact-container {
     position: relative;
     margin-top: -50rem;
@@ -146,16 +160,19 @@ body {
     height: 50rem;
     text-align: center;
 }
+
 .contact-customerquote {
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
     margin: 10rem 1rem;
 }
+
 .contact-container h4 {
     color: #fcffe2;
     margin-bottom: 2.5rem;
 }
+
 .form-group {
     color: #fff;
     padding-left: 5rem;
@@ -163,35 +180,41 @@ body {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
+
 .form-control {
     background-color: rgba(248, 247, 247, 0.8);
 }
+
 .form-send-btn {
     background-color: #656d35;
     color: #fff;
     margin-top: 1.25rem;
 }
+
 .form-send-btn:hover {
     color: #fcffe2;
 }
 
-/*-----------------------------Footer */
+/*--------------------------------Footer-------------------------------*/
 
 footer {
     background: #fbfcf2;
     text-align: center;
     width: 100%;
 }
+
 .copyright {
     font-size: 0.8rem;
     color: #656d35;
     margin-top: 0.625rem;
 }
+
 .social-icon {
     font-size: 1.8rem;
     margin: 2.5rem 0.625rem 1.25rem;
     color: #656d35;
 }
+
 /* Credit for transition code making the button larger on hover, and smaller on hover off: https://css-tricks.com/different-transitions-for-hover-on-hover-off/*/
 .cta-btn {
     position: fixed;
@@ -203,57 +226,68 @@ footer {
     z-index: 1;
     transition: padding 1s;
 }
+
 .cta-btn:hover {
     padding: 1.75rem;
     transition: padding 1s;
 }
+
 .cta-btn i {
     text-decoration: none;
     font-size: 4rem;
     color: #c95512;
     transition: font-size 1s;
 }
+
 .cta-btn i:hover {
     font-size: 5rem;
     transition: font-size 1s;
 }
 
-/* ----------------------------------------Media queries */
+/* ----------------------------------------Media queries-----------------------------*/
 
 @media screen and (max-width: 770px) {
     .heading {
         margin-top: 0;
     }
+
     .header-container {
         margin-bottom: 3.75rem;
     }
+
     .logo {
         font-size: 2.5rem;
         left: 0.625rem;
         top: 0.625rem;
     }
+
     .gallery-container {
         column-count: 3;
     }
+
     .contact-container {
         float: none;
         padding: 0;
         width: 100%;
     }
+
     .cta-btn {
         bottom: 1.25rem;
         right: 1.25rem;
         padding: 0.75rem;
         transition: padding 1s;
     }
+
     .cta-btn:hover {
         padding: 1rem;
         transition: padding 1s;
     }
+
     .cta-btn i {
         font-size: 3rem;
         transition: font-size 1s;
     }
+
     .cta-btn i:hover {
         font-size: 3.5rem;
         transition: font-size 1s;
@@ -264,35 +298,44 @@ footer {
     .logo {
         margin: 0.625rem 0.3125rem;
     }
+
     .heading {
         font-size: 1.5rem;
         margin-top: 3rem;
     }
+
     .navbar {
         padding: 0 0.5rem;
     }
+
     .about-col {
         margin-bottom: 0;
     }
+
     .about-self-img {
         float: none;
         height: 60%;
         width: 60%;
     }
+
     .about-col p {
         margin-top: 1.25rem;
     }
+
     .gallery-container {
         column-count: 2;
         margin-bottom: 1.25rem;
     }
+
     .contact-container {
         padding: 0;
         width: 100%;
     }
+
     .contact-customerquote {
         font-size: 1rem;
     }
+    
     .footer {
         height: 6.25rem;
     }

@@ -3,7 +3,7 @@
 [A live version of the page can be viewed here](https://mmmangooo.github.io/Milestone-Project1/)
 
 
-![Image of the website in mobile, tablet and full screen versions.](/assets/images/AmIResponsive.PNG) 
+![Image of the website in mobile, tablet and full screen versions.](./assets/images/am-i-responsive.png) 
 
 This is a one page website for amateur photographer Elenore Henriksson. Its purpose is to show off her work to potential clients and others interested in seeing an example of her photos.
 The entire page is responsive and customized for desktop, tablets and mobile phone. The design is largely focused on giving the viewer an immediate view of the quality of Elenore´s work and making it easy to take the step to get in touch with her.
@@ -72,7 +72,7 @@ As for the H1 in the header, the purpose of the chosen font, Dancing Script, is 
 
 #### Wireframe mockups:
 
-[Link to wireframes:](./assets/images/Wireframes-MS1.pdf)
+[Link to wireframes:](./assets/docs/wireframes.pdf)
 
 #### Differences to Design
 When actually coding the site, some of the design choices I made turned out to be either complicated to achieve or creating bad UX. As there is not endless resources of time, and the developer is not yet very accomplished, some things in the design needed to be reconsidered.
@@ -171,7 +171,8 @@ The page has been manually tested on the functionality of the following:
 
 ### Further Testing
 * The HTML code has been validated through [W3 Markup Validation Service](https://validator.w3.org/) and showed no errors.
-* The CSS code has been validated thorugh [W3 CSS Validation Service, Jigsaw](https://jigsaw.w3.org/css-validator/)
+* The CSS code has been validated thorugh [W3 CSS Validation Service, Jigsaw](https://jigsaw.w3.org/css-validator/) with the following error:
+![Screenshot of error message saying shape-ouside: circle(50%); does not exist.](./assets/images/jigsaw-message.png)
 * The page has been reviewed by fellow students in the Peer review channel on Slack
 * The page has been reviewed by friends and family, who have looked at it on different mobile devices and commented on responsivity and user experience.
 
@@ -191,7 +192,7 @@ The page has been manually tested on the functionality of the following:
 * The first time the HTML code was run through [W3 Markup Validation Service](https://validator.w3.org/), several errors were found in the path to images used to sites. The errors consisted of blank spaces in the paths.
     - This problem was solved by renaming images.
 * When this project was posted in Peer Code Review channel on slack, some fellow students discovered issues with a white line on the right of the screen on mobile devices, caused by the navbar taking up a wider space to the right than the rest of the content on page.
-    - Solution?   
+    - This problem was solved by adding class="container-fluid" to about-section, as it was this section that was causing the issue by adding a right-margin.
 
 
 ## Deployment
