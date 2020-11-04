@@ -174,6 +174,7 @@ The page has been manually tested on the functionality of the following:
 * The HTML code has been validated through [W3 Markup Validation Service](https://validator.w3.org/) and showed no errors.
 * The CSS code has been validated thorugh [W3 CSS Validation Service, Jigsaw](https://jigsaw.w3.org/css-validator/) with the following error:
 ![Screenshot of error message saying shape-ouside: circle(50%); does not exist.](./assets/images/jigsaw-message.png)
+     - This error message was revised by mentor Akshat Garg and advised to ignore because of not effecting functionality.
 * The page has been reviewed by fellow students in the Peer review channel on Slack
 * The page has been reviewed by friends and family, who have looked at it on different mobile devices and commented on responsivity and user experience.
 
