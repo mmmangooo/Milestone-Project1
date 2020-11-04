@@ -4,25 +4,18 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 0.95rem;
     background-color: #fbfcf2;
-    margin: 0;
 }
 .heading {
     color: #656d35;
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.05rem;
+    margin-bottom: 2rem;
 }
 
 .content-container {
-    margin-bottom: 6.25rem;
+    margin: 6.25rem 0;
     text-align: center;
-    width: 100%;
-}
-
-/*--------------------------Header section --------------------*/
-
-.carousel-container {
-    margin: 0 0 5rem;
     width: 100%;
 }
 
@@ -60,18 +53,18 @@ body {
 }
 
 .navbar-collapse {
-    padding-left: 2rem;
+    padding-right: 1rem;
+    text-align: right;
 }
 
 /*--------------------------About section------------------------*/
 
 .about-col {
-    padding: 0 3.75rem;
-    margin-bottom: 2rem;
+    padding: 0 3rem 3rem;
 }
 
 .about-col-text {
-    margin-top: 3.75rem;
+    margin-top: 3rem;
     color: #72726c;
 }
 
@@ -133,7 +126,6 @@ body {
     line-height: 0;
     column-count: 4;
     column-gap: 0.125rem;
-    margin-top: 2rem;
     width: 100%;
 }
 
@@ -143,6 +135,13 @@ body {
 
 /*------------------------------Contact section----------------------*/
 
+/* Credit for overlay, idea and implementation: Mentor Akshat Garg */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* Credit for making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
 
 .background-container {
@@ -150,8 +149,6 @@ body {
     background-size: cover;
     padding-bottom: 65rem;
     opacity: 0.7;
-    width: 100%;
-    text-align: center;
 }
 
 .contact-container {
@@ -191,16 +188,13 @@ body {
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
-  /*  padding: 3rem 0 0;*/
-    /*margin-top: 3rem;*/
 }
 
 /*--------------------------------Footer-------------------------------*/
 
-footer {
+.footer {
     background: #fbfcf2;
     text-align: center;
-    width: 100%;
 }
 
 .copyright {
@@ -247,18 +241,11 @@ footer {
 /* ----------------------------------------Media queries-----------------------------*/
 
 @media screen and (max-width: 770px) {
-   .content-container {
-        margin-bottom: 0;
-   }
-
     .logo {
         font-size: 2rem;
         left: 0.625rem;
         top: 0.625rem;
     }
-    .about-col {
-        margin: 3rem 0 4rem;
-}
 
     .gallery-container {
         column-count: 3;
@@ -278,10 +265,10 @@ footer {
         padding: 0 2rem;
     }
 
-     .contact-customerquote {
+    .contact-customerquote {
         font-size: 0.9rem;
     }
-   
+
     .cta-btn {
         bottom: 1.25rem;
         right: 1.25rem;
@@ -312,38 +299,38 @@ footer {
 
     .heading {
         font-size: 1.3rem;
-        margin-top: 3rem;
     }
 
     .navbar {
         padding: 0 0.5rem;
     }
 
+    .content-container {
+        margin: 2.5rem 0;
+    }
+
     .about-col {
-        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .about-self-img {
         float: none;
         height: 60%;
         width: 60%;
+        margin-top: 0;
     }
 
-    .about-col p {
+    .about-col-text {
         margin-top: 1.25rem;
     }
 
     .gallery-container {
         column-count: 2;
         margin-bottom: 1.25rem;
-        padding: 0;
+        padding: 1.5rem 0;
     }
 
-    .contact-container {
-       padding: 0.8rem;
-    }
-
-     .cta-btn {
+    .cta-btn {
         padding: 0.5rem;
         transition: padding 1s;
     }
@@ -362,6 +349,4 @@ footer {
         font-size: 3rem;
         transition: font-size 1s;
     }
-
-   
 }

@@ -7,13 +7,13 @@
 
 This is a one page website for amateur photographer Elenore Henriksson. Its purpose is to show off her work to potential clients and others interested in seeing an example of her photos.
 The entire page is responsive and customized for desktop, tablets and mobile phone. The design is largely focused on giving the viewer an immediate view of the quality of Elenore´s work and making it easy to take the step to get in touch with her.
-Becuase this is a site aimed at private clients (B2C), the site is designed with the clients emotion-driven decision-making in mind. Therefore it contains a lot of images, which are in focus on all pages, and a rather simple but eye-catching design.
+Because this is a site aimed at private clients (B2C), the site is designed with the clients emotion-driven decision-making in mind. Therefore it contains a lot of images, which are in focus on all pages, and a rather simple but eye-catching design.
 
 The business goals of this website is to:
 * Attract potential clients 
 * Show examples of the photographer's work to potential clients in a way that sparks an interest in hiring her
 * Encourage potential clients to make contact with the photographer via easy accessible contact options on the site 
-* Provide very good UX to give potential clients a positive feeling and an impression of professionalism when visiting the site
+* Provide good UX to give potential clients a positive feeling and an impression of professionalism when visiting the site
 
 The client goals of this website is to:
 * Quickly gain an image of what the expected product (the photos) will look like if hiring Elenore for photography services
@@ -37,19 +37,19 @@ The client goals of this website is to:
 
 #### This project is the best way to help them achieve this because:
 * It clearly shows off examples of photos in the above categories
-* It has an emphasis on examples of Elenore's photography and therefor makes it easy to get an impression of what her work looks like
+* It has an emphasis on examples of Elenore's photography and therefore makes it easy to get an impression of what her work looks like
 * It is designed with well known UX-rules in mind, such as the Z-design for the landing page
 * It gives information about how Elenore works and what she thinks and acts like as a professional, which makes it easy for the client to decide if they want to hire her
 * It makes it easy to make contact with Elenore as it guides them to the contact form from every page on the site
 
 * User stories
     1. As a first time visitor I want to quickly get a feel for the quality of this photographer's work
-    2. As a first time visitor I want to get a clear example of what pregnancy/children or food/bakery photography can look like
+    2. As a first time visitor I want to get a clear example of what pregnancy/children photography can look like
     3. As a first time visitor, I want to gain knowledge of this photographer as a professional and get a perception of her as a person  
     4. As a potential client, I want to see more photos of the type that I am interested in, eg pregnancy or children
     5. As an interested client, I want to quickly see how I can contact the photographer to discuss using her services
     6. As an interested client, I want a user-friendly contact form that is easy to fill in
-    7. As an interest potential client or an observer, I want to follow the photographer on social media so I can see more of her work and be updated on new work 
+    7. As an interested, potential client or an observer, I want to follow the photographer on social media so I can see more of her work and be updated on new work 
     8. As a returning visitor who has decided to get in touch with the photographer to discuss hiring her, I want to quickly access the contact page 
 
 #### Design 
@@ -58,8 +58,9 @@ The client goals of this website is to:
 The purpose of the colors chosen is to create good contrast for the reader, as well as making the site easy on the eyes an visually appealling.
  
 - For body background and some headings, #fbfcf2 is used
-- For some headings, footer icons and footer text and send button in contact form.
-A dark orange contrast color, #c95512, is used for the call to action button and a slightly green dark grey hue, #72726c, is used for the paragraph text in About section. 
+- For some headings, footer icons and footer text and send button in contact form, #656d35 is used
+- A dark orange contrast color, #c95512, is used for the call to action button 
+- A slightly green dark grey hue, #72726c, is used for the paragraph text in About section
 
 
 * Typography
@@ -78,14 +79,14 @@ As for the H1 in the header, the purpose of the chosen font, Dancing Script, is 
 When actually coding the site, some of the design choices I made turned out to be either complicated to achieve or creating bad UX. As there is not endless resources of time, and the developer is not yet very accomplished, some things in the design needed to be reconsidered.
 * In the wireframes, the navbar is vertically aligned, which when actually building the web-site turned out to be a bit too complicated to code and also would take up too much space on the header on smaller screens, so this was changed to a horizontal navbar.
 * The gallery page was originally meant to consist of two different sections, one for pregnancy photo and one for children. However this seemed unnecessarily cluttered when actually carried out on the screen and therefor was changed to just one gallery of mixed photos.
-* The footer was originally meant to be fixed at the bottom and visible throughout the page. This was pointed out by the mentor as bad UX, and therefor changed.
+* The footer was originally meant to be fixed at the bottom and visible throughout the page. This was pointed out by the mentor as bad UX, and therefore altered to staying at the bottom of last page.
 * The contact page was designed to have a round image on it along with the contact form. However this image turned out to clutter the contact page and hide the background image too much, so it was removed.
 * The navbar and logo was originally intended to appear on top of carousel container, but this proved to create issues with readability. 
 * Added customer quotes to contact section during development.
 
 ## Features
 
-Every page contains a shortcut link to the contact page, in form of an icon in the down right corner. The purpose og this is to make it easy for the user to find and quickly get to the contact page regardless of where the user is on the page.
+Every page contains a shortcut link to the contact page, in form of an icon in the down right corner. The purpose of this is to make it easy for the user to find and quickly get to the contact page regardless of where the user is on the page.
 Each page also features a navigation bar on the top right, which is fixed in its position so it remains the same while the user scrolls down the page. The purppse of this is to make it easy no navigate the page no matter where on te page the user currently is. 
 The navigation bar is collapsed to a "hamburger menu" on mobile and tablet. Each page contains a footer with copyright information and links to the photographer in social media.
 
@@ -109,12 +110,12 @@ The gallery page contains a masonry gallery with photos layed out in four column
 This pages contains nothing but a heading and the photo gallery, to keep the viewer's attention on the photos. Although the footer and call to action button on the down right are present as on all pages.
 
 ### Contact
-The contact page features a contact form on the left wrapped around an image of Elenore in a circle shape to the right. On mobile device, the image of Elenore is placed above the text.
-This design is aimed to follow the pattern of the about page to create consistensy. Behind the text and image is a background image which is fixed so that it doesn´t move when the viewer scrolls the page. This is aimed to create an impression of modern and good-looking design.
+The contact page features a contact form on the left and customer-quotes on the right. On tablet and mobile device, the customer quotes are placed below the content form and both the forms and is the quotes are center aligned. On mobile there is only one quote displayed.
+Behind the text is a background image whith some opacity to create a somewhat dreamy effect, and there is also a black overlay on the background made to improve visibility of the light colored text.  
 
 
 ### Features to implement in the future
-A pricing page will be implemented when the photographer have started up her business and made research into what pricing level is right for her potential clients.
+A pricing page will be implemented when the photographer have started up her business and made research into what pricing level is right for her potential clients. 
 
 
 ## Technologies used
@@ -185,6 +186,8 @@ The page has been manually tested on the functionality of the following:
     - Set a fixed height to contact container.
 * Unable to customize color of navbar links, seems like impossible to override the bootstrap set color.
     - Added !important to .nav-link color setting. 
+* Poor visibility on contact section due to the black and white background image and light colored text. Changing the text color to a dark or bright color would have altered the intended design too much.
+    - Solved by adding a dark overlay, which was suggested and teached by mentor Akshat Garg.
 * Images are too large and takes time to load, even though they have been shrinked in size using [ResizeImage.net](https://resizeimage.net/)  and compressed using [Tiny PNG](https://tinypng.com/).
     - This problem remains to be solved.
 
@@ -227,27 +230,36 @@ A clone of the project will be created locally on your machine
 ### Content
 * The content for the about page was created by Elenore Henriksson, with some editing by Isabelle Ängsås
 * The content fot the rest of the website was created by Isabelle Ängsås
-* All content has been 
 
 ### Media
 All images is taken by, and provided to the developer by, the photographer herself and are used with permission from the people appearing in the photos.
 
 Social media icons are from Font Awesome -  [Font Awesome](https://fontawesome.com/) 
 
+Camera Favicon is from [Favicon](https://favicon.io/)
+
 ### Code
 
 Wrapping text shaped around circular image:
-https://css-tricks.com/almanac/properties/s/shape-outside/
+[CSS-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/)
+
+Making circular images keep their shape: 
+[Stack Overflow](https://stackoverflow.com/questions/35336298/responsive-circular-images)
 
 Making background-image transparent while elements on top remain non-transparent:
-https://css-tricks.com/non-transparent-elements-inside-transparent-elements/
+[CSS-tricks](https://css-tricks.com/non-transparent-elements-inside-transparent-elements/)
+
+Making black and white background-image darker to improve light text visibility:
+Mentor Akshat Garg
 
 Making the CTA-button appear larger on hover on and smaller again on hover off, with transition:
-https://css-tricks.com/different-transitions-for-hover-on-hover-off/
+[CSS-tricks](https://css-tricks.com/different-transitions-for-hover-on-hover-off/)
+
+
 
 
 ### Acknowledgements
 * Thanks to fellow students on the slack channel for testing and support.
 * Thanks to tutor support for helpful guidance with solving bugs.
-* Thanks to mentor Akshat Garg for valuable input on design and UX.
+* Thanks to mentor Akshat Garg for valuable input on design and UX and help with debugging technical issues.
 
