@@ -59,10 +59,15 @@ body {
     font-weight: bold;
 }
 
+.navbar-collapse {
+    padding-left: 2rem;
+}
+
 /*--------------------------About section------------------------*/
 
 .about-col {
     padding: 0 3.75rem;
+    margin-bottom: 2rem;
 }
 
 .about-col-text {
@@ -92,7 +97,7 @@ body {
 
 .first-img-container {
     top: 2.5rem;
-    right: 1.25rem;
+    left: 1.25rem;
 }
 
 .second-img-container {
@@ -101,7 +106,7 @@ body {
 }
 
 .third-img-container {
-    top: 3.75rem;
+    top: 4.5rem;
 }
 
 #first-about-img {
@@ -128,8 +133,7 @@ body {
     line-height: 0;
     column-count: 4;
     column-gap: 0.125rem;
-    margin-top: 5rem;
-    margin-bottom: 12.5rem;
+    margin-top: 2rem;
     width: 100%;
 }
 
@@ -144,28 +148,18 @@ body {
 .background-container {
     background: url("../images/contact-bg.jpg") no-repeat;
     background-size: cover;
-    padding-bottom: 50rem;
+    padding-bottom: 65rem;
     opacity: 0.7;
-    overflow: hidden;
     width: 100%;
     text-align: center;
 }
 
 .contact-container {
     position: relative;
-    margin-top: -50rem;
-    width: 50%;
-    float: left;
+    margin-top: -55rem;
     padding: 2.5rem;
-    height: 50rem;
+    height: 55rem;
     text-align: center;
-}
-
-.contact-customerquote {
-    color: #fcffe2;
-    font-size: 1.2rem;
-    font-style: italic;
-    margin: 10rem 1rem;
 }
 
 .contact-container h4 {
@@ -175,10 +169,8 @@ body {
 
 .form-group {
     color: #fff;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    padding: 0 4rem;
+    margin: 1.25rem 0;
 }
 
 .form-control {
@@ -188,11 +180,19 @@ body {
 .form-send-btn {
     background-color: #656d35;
     color: #fff;
-    margin-top: 1.25rem;
+    margin: 1.25rem 0 3rem;
 }
 
 .form-send-btn:hover {
     color: #fcffe2;
+}
+
+.contact-customerquote {
+    color: #fcffe2;
+    font-size: 1.2rem;
+    font-style: italic;
+  /*  padding: 3rem 0 0;*/
+    /*margin-top: 3rem;*/
 }
 
 /*--------------------------------Footer-------------------------------*/
@@ -247,30 +247,41 @@ footer {
 /* ----------------------------------------Media queries-----------------------------*/
 
 @media screen and (max-width: 770px) {
-    .heading {
-        margin-top: 0;
-    }
-
-    .header-container {
-        margin-bottom: 3.75rem;
-    }
+   .content-container {
+        margin-bottom: 0;
+   }
 
     .logo {
-        font-size: 2.5rem;
+        font-size: 2rem;
         left: 0.625rem;
         top: 0.625rem;
     }
+    .about-col {
+        margin: 3rem 0 4rem;
+}
 
     .gallery-container {
         column-count: 3;
+        margin-bottom: 3rem;
+    }
+
+    .background-container {
+        padding-bottom: 55rem;
     }
 
     .contact-container {
-        float: none;
-        padding: 0;
-        width: 100%;
+        margin-top: -53rem;
+        height: 53rem;
     }
 
+    .form-group {
+        padding: 0 2rem;
+    }
+
+     .contact-customerquote {
+        font-size: 0.9rem;
+    }
+   
     .cta-btn {
         bottom: 1.25rem;
         right: 1.25rem;
@@ -300,7 +311,7 @@ footer {
     }
 
     .heading {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 3rem;
     }
 
@@ -325,18 +336,32 @@ footer {
     .gallery-container {
         column-count: 2;
         margin-bottom: 1.25rem;
+        padding: 0;
     }
 
     .contact-container {
-        padding: 0;
-        width: 100%;
+       padding: 0.8rem;
     }
 
-    .contact-customerquote {
-        font-size: 1rem;
+     .cta-btn {
+        padding: 0.5rem;
+        transition: padding 1s;
     }
-    
-    .footer {
-        height: 6.25rem;
+
+    .cta-btn:hover {
+        padding: 0.75rem;
+        transition: padding 1s;
     }
+
+    .cta-btn i {
+        font-size: 2.75rem;
+        transition: font-size 1s;
+    }
+
+    .cta-btn i:hover {
+        font-size: 3rem;
+        transition: font-size 1s;
+    }
+
+   
 }
