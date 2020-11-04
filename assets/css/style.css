@@ -310,7 +310,7 @@ body {
     }
 
     .about-col {
-        padding-bottom: 0;
+        padding: 0 1.5rem;
     }
 
     .about-self-img {
