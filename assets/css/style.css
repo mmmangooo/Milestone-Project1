@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Dancing+Script:wght@500;700&family=La+Belle+Aurore&family=Overpass:wght@200;300&family=Raleway:wght@400;500;600&family=Roboto:wght@300;400&display=swap");
 
 body {
-    font-family: "Antic Didone", serif;
+    font-family: "Raleway", sans-serif;
     font-size: 0.95rem;
-    background-color: #e8dbd7;
+    background-color: #fbfcf2;
 }
-
-h2 {
-    color: #545454;
+.heading {
+    color: #656d35;
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 0.05rem;
@@ -23,9 +22,11 @@ h2 {
 /* ------------------------- Navigation bar--------------------*/
 
 .logo {
-    
-    font-size: 2rem;
-    color: #545454;
+    font-family: "Dancing Script", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #c95512;
+    margin-left: 1.25rem;
 }
 
 .logo-link {
@@ -42,15 +43,13 @@ h2 {
 
 .navbar {
     margin-top: 0;
-    background-color: #e8dbd7;
+    background-color: #fbfcf2ec;
     max-width: 100%;
-    height: 5rem;
-    
 }
 
 .nav-link {
-    color: #545454 !important;
-    font-size: 1.2rem;
+    color: #c95512 !important;
+    font-weight: bold;
 }
 
 .navbar-collapse {
@@ -66,7 +65,7 @@ h2 {
 
 .about-col-text {
     margin-top: 3rem;
-    color: #545454;
+    color: #72726c;
 }
 
 .about-self-img {
@@ -137,7 +136,7 @@ h2 {
 /*------------------------------Price section------------------------*/
 
 .price-container {
-    color: #545454;
+    color: #656d35;
 }
 
 .price-container h5 {
@@ -149,10 +148,9 @@ h2 {
 
 /* Credit for overlay, idea and implementation: Mentor Akshat Garg */
 .overlay {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
 }
 
 /* Credit for making the background-image transparent while text and image elements on top remain non-transparent: https://css-tricks.com/non-transparent-elements-inside-transparent-elements/*/
@@ -160,9 +158,8 @@ h2 {
 .background-container {
     background: url("../images/contact-bg.jpg") no-repeat;
     background-size: cover;
-    padding-bottom: 55rem;
+    padding-bottom: 65rem;
     opacity: 0.7;
-
 }
 
 .contact-container {
@@ -170,27 +167,12 @@ h2 {
     margin-top: -55rem;
     padding: 2.5rem;
     height: 55rem;
-    display: flex;
-    align-items: center;
-    
+    text-align: center;
 }
-/*
+
 .contact-container h4 {
     color: #fcffe2;
     margin-bottom: 2.5rem;
-}
-*/
-
-form {
-    background-color: rgba(255, 255, 255, 0.808);
-    width: 50%;
-    padding: 2rem 0;
-    border-radius: 2rem;
-}
-
-form h3 {
-    font-size: 1.5rem;
-    
 }
 
 .form-group {
@@ -203,44 +185,39 @@ form h3 {
     background-color: rgba(248, 247, 247, 0.8);
 }
 
-label {
-  color: #545454;
-  position: left;
-}
-
 .form-send-btn {
-    background-color: #545454;
+    background-color: #656d35;
     color: #fff;
-   margin: auto;
+    margin: 1.25rem 0 3rem;
 }
 
 .form-send-btn:hover {
     color: #fcffe2;
 }
-/*
+
 .contact-customerquote {
     color: #fcffe2;
     font-size: 1.2rem;
     font-style: italic;
-}*/
+}
 
 /*--------------------------------Footer-------------------------------*/
 
 .footer {
-   
+    background: #fbfcf2;
     text-align: center;
 }
 
 .copyright {
     font-size: 0.8rem;
-    color: #545454;
+    color: #656d35;
     margin-top: 0.625rem;
 }
 
 .social-icon {
     font-size: 1.8rem;
     margin: 2.5rem 0.625rem 1.25rem;
-    color: #545454;
+    color: #656d35;
 }
 
 /* Credit for transition code making the button larger on hover, and smaller on hover off: https://css-tricks.com/different-transitions-for-hover-on-hover-off/*/
@@ -263,7 +240,7 @@ label {
 .cta-btn i {
     text-decoration: none;
     font-size: 4rem;
-    color: #545454;
+    color: #c95512;
     transition: font-size 1s;
 }
 
